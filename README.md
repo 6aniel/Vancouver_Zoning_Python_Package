@@ -8,8 +8,7 @@ Status: prototype
 ## Install (dev)
 
 ```bash
-pip install -e ".[dev]"
-pytest
+pip install "vanzoning[opt] @ git+https://github.com/6aniel/Vancouver_Zoning_Python_Package.git"
 ```
 
 ## Quick start
@@ -18,14 +17,17 @@ pytest
 from vanzoning import store, Metric
 from vanzoning.envelope import Site, building_options
 
-r1 = store.load("R1-1")                       # bundled, reviewed JSON
-r1.value(Metric.FSR, "duplex", "max")          # 0.70
+r1 = store.load("R1-1")                     
+r1.value(Metric.FSR, "duplex", "max")          # 0.70: max floor space ratio for a duplex
 r1.value(Metric.DWELLING_UNITS, "multiple_dwelling", "max", tenure="rental")  # 8
 r1.regulations_df()                            # long table, one row per numeric rule
 
 # What can I build on a 33 ft x 122 ft lot?
 for o in building_options(r1, Site(area_m2=306, frontage_m=10.06, depth_m=37.2)):
     print(o.use, o.units, o.eligible, o.max_floor_area_m2, o.reasons)
+
+# Every rule for every district as one pandas table
+store.regulations_table()
 ```
 
 Conditional rules (most density bonuses) carry `requires`, a dict of site or
@@ -71,20 +73,6 @@ vanzoning show R3-2
    (yards, building width/depth, coverage, storeys), and says which one binds.
 5. `features`: fixed-order numeric vectors; `torch.from_numpy(X)` works.
 6. `parcels` (extra `geo`): frontage/depth from Open Data parcel polygons.
-
-## Optimisers
-
-`options_frame(sched, sites)` returns one row per site x building option. Both
-examples solve the same toy problem and reach the same optimum (27 units):
-
-* `examples/milp_max_units.py`: scipy HiGHS MILP, one binary per site x option.
-* `examples/ga_max_units.py`: PyGAD, one gene per site whose `gene_space` is that
-  site's eligible options, so every chromosome is zoning-feasible; only
-  portfolio constraints need a penalty in the fitness.
-
-Every number keeps its clause id and page so collaborators can check it
-against the bylaw. Text we don't yet model numerically is still stored
-verbatim in `schedule.clauses`.
 
 ## Layout
 
