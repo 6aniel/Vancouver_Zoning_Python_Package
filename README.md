@@ -3,10 +3,7 @@
 Parse, query and store City of Vancouver zoning bylaw rules (district schedules)
 as clean, typed data for urban analytics and housing-supply optimisation.
 
-Status: prototype. All 47 residential districts (R1-1, RT-*, RM-*, RR-*, R3/R4/R5;
-plus FM-1) are parsed from the City's tagged schedule PDFs (June/October 2026
-editions) and tested against hand-checked values and the earlier
-`vancouver_r_zoning/profiles.py`.
+Status: prototype
 
 ## Install (dev)
 
