@@ -1,0 +1,1200 @@
+{
+  "district": "RR-1",
+  "name": null,
+  "intent": "The intent of this schedule is to permit triplexes and townhouses where all dwelling units are secured as residential rental tenure. [...] Without limitation, applicable Council policies and guidelines for consideration include the Residential Rental Districts Schedules Design Guidelines.",
+  "source": {
+    "filename": "rr-1.pdf",
+    "sha256": "c201e7c38993a57aaeb841f186cdbb4d25139dcc0a8886a923667aea3ceaece9",
+    "title": "Zoning and Development By-law: RR-1 District Schedule",
+    "version_label": "October 2026",
+    "pages": 7
+  },
+  "uses": [
+    {
+      "use": "townhouse",
+      "name": "Townhouse",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "triplex",
+      "name": "Triplex",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_bike_share",
+      "name": "Public Bike Share",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "shared_e_scooter_system",
+      "name": "Shared E-Scooter System",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_buildings",
+      "name": "Accessory Buildings, customarily ancillary to any use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.2"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses",
+      "name": "Accessory Uses, customarily ancillary to any use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    }
+  ],
+  "regulations": [
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 920.0,
+      "unit": "m2",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "4_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1(a)",
+      "page": 3,
+      "source_text": "Minimum site area for | 4-storey townhouse containing more than 8 dwelling units: 920 m²"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 613.0,
+      "unit": "m2",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "3_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1(b)",
+      "page": 3,
+      "source_text": "Minimum site area for | 3-storey townhouse containing more than 8 dwelling units: 613 m²"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 465.0,
+      "unit": "m2",
+      "min_units": 5,
+      "max_units": 8,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1(c)",
+      "page": 3,
+      "source_text": "Minimum site area for | townhouse containing not less than 5 and not more than 8 dwelling units: 465 m²"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 303.0,
+      "unit": "m2",
+      "min_units": 3,
+      "max_units": 4,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1(d)",
+      "page": 3,
+      "source_text": "Minimum site area for | townhouse containing 4 dwelling units or triplex: 303 m²"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "triplex",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 303.0,
+      "unit": "m2",
+      "min_units": 3,
+      "max_units": 4,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1(d)",
+      "page": 3,
+      "source_text": "Minimum site area for | townhouse containing 4 dwelling units or triplex: 303 m²"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_area",
+      "bound": "max",
+      "value": 1500.0,
+      "unit": "m2",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "4_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(a)",
+      "page": 3,
+      "source_text": "Maximum site area for | 4-storey townhouse containing more than 8 dwelling units: 1,500 m2"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_area",
+      "bound": "max",
+      "value": 1500.0,
+      "unit": "m2",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "3_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(b)",
+      "page": 3,
+      "source_text": "Maximum site area for | 3-storey townhouse containing more than 8 dwelling units: 1,500 m2"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 30.1,
+      "unit": "m",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "4_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3(a)",
+      "page": 3,
+      "source_text": "Minimum site frontage for | 4-storey townhouse containing more than 8 dwelling units: 30.1 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 20.1,
+      "unit": "m",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "3_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3(b)",
+      "page": 4,
+      "source_text": "Minimum site frontage for | 3-storey townhouse containing more than 8 dwelling units: 20.1 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 15.2,
+      "unit": "m",
+      "min_units": 5,
+      "max_units": 8,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3(c)",
+      "page": 4,
+      "source_text": "Minimum site frontage for | townhouse containing not less than 5 and not more than 8 dwelling units: 15.2 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 10.0,
+      "unit": "m",
+      "min_units": 3,
+      "max_units": 4,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3(d)",
+      "page": 4,
+      "source_text": "Minimum site frontage for | townhouse containing 4 dwelling units or triplex: 10.0 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "triplex",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 10.0,
+      "unit": "m",
+      "min_units": 3,
+      "max_units": 4,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3(d)",
+      "page": 4,
+      "source_text": "Minimum site frontage for | townhouse containing 4 dwelling units or triplex: 10.0 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_frontage",
+      "bound": "max",
+      "value": 40.2,
+      "unit": "m",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "4_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4(a)",
+      "page": 4,
+      "source_text": "Maximum site frontage for | 4-storey townhouse containing more than 8 dwelling units: 40.2 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "site_frontage",
+      "bound": "max",
+      "value": 40.2,
+      "unit": "m",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "3_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4(b)",
+      "page": 4,
+      "source_text": "Maximum site frontage for | 3-storey townhouse containing more than 8 dwelling units: 40.2 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 13.7,
+      "unit": "m",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "4_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(a)",
+      "page": 4,
+      "source_text": "Maximum building height for | 4-storey townhouse containing more than 8 dwelling units other than a rear building: 13.7 m and 4 storeys"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "storeys",
+      "bound": "max",
+      "value": 4.0,
+      "unit": "storeys",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "4_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(a)",
+      "page": 4,
+      "source_text": "Maximum building height for | 4-storey townhouse containing more than 8 dwelling units other than a rear building: 13.7 m and 4 storeys"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 11.5,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(b)",
+      "page": 4,
+      "source_text": "Maximum building height for | all other dwelling uses other than a rear building: 11.5 m and 3 storeys"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "storeys",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "storeys",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(b)",
+      "page": 4,
+      "source_text": "Maximum building height for | all other dwelling uses other than a rear building: 11.5 m and 3 storeys"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "rear_building",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(c)",
+      "page": 4,
+      "source_text": "Maximum building height for | a rear building: 10.7 m and 3 storeys"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "storeys",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "storeys",
+      "min_units": null,
+      "max_units": null,
+      "condition": "rear_building",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(c)",
+      "page": 4,
+      "source_text": "Maximum building height for | a rear building: 10.7 m and 3 storeys"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.6",
+      "page": 4,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.7",
+      "page": 4,
+      "source_text": "Minimum side yard width: 1.2 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 3.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.8",
+      "page": 4,
+      "source_text": "Minimum rear yard depth: 3.1 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "building_depth",
+      "bound": "max",
+      "value": 19.8,
+      "unit": "m",
+      "min_units": 9,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.9",
+      "page": 4,
+      "source_text": "Maximum building depth for townhouse containing not more than 8 dwelling units: 19.8 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 3.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "between_frontage_buildings",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.10(a)",
+      "page": 4,
+      "source_text": "Minimum separation between | buildings located on a site frontage: 3.1 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 3.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "between_rear_buildings",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.10(b)",
+      "page": 4,
+      "source_text": "Minimum separation between | rear buildings: 3.1 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 7.3,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "frontage_to_rear",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.10(c)",
+      "page": 4,
+      "source_text": "Minimum separation between | buildings located on a site frontage and rear buildings: 7.3 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 4.6,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "a_building_facing_a_flanking_street_and_any_other_townhouse_building",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.10(d)",
+      "page": 4,
+      "source_text": "Minimum separation between | a building facing a flanking street and any other townhouse building: 4.6 m"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.45,
+      "unit": "ratio",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "4_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.1.2(a)",
+      "page": 3,
+      "source_text": "1.45 for 4-storey townhouse containing more than 8 dwelling units;"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.2,
+      "unit": "ratio",
+      "min_units": 9,
+      "max_units": null,
+      "condition": "3_storey",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.1.2(b)",
+      "page": 3,
+      "source_text": "1.20 for 3-storey townhouse containing more than 8 dwelling units;"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.0,
+      "unit": "ratio",
+      "min_units": 5,
+      "max_units": 8,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.1.2(c)",
+      "page": 3,
+      "source_text": "1.00 for townhouse containing not less than 5 and not more than 8 dwelling units; and"
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.0,
+      "unit": "ratio",
+      "min_units": 3,
+      "max_units": 4,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.1.2(d)",
+      "page": 3,
+      "source_text": "1.00 for townhouse containing 4 dwelling units or triplex."
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "triplex",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.0,
+      "unit": "ratio",
+      "min_units": 3,
+      "max_units": 4,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.1.2(d)",
+      "page": 3,
+      "source_text": "1.00 for townhouse containing 4 dwelling units or triplex."
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "top_storey_fraction",
+      "bound": "max",
+      "value": 0.6,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.11",
+      "page": 4,
+      "source_text": "Despite the maximum building height in section 3.1.2.5(a) above, the fourth storey must be a partial storey not exceeding 60% of the storey immediately below."
+    },
+    {
+      "district": "RR-1",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "top_storey_fraction",
+      "bound": "max",
+      "value": 0.6,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.12",
+      "page": 5,
+      "source_text": "Despite the maximum building height in section 3.1.2.5(c) above, the third storey must be a partial storey not exceeding 60% of the storey immediately below."
+    }
+  ],
+  "clauses": [
+    {
+      "id": "1.1",
+      "text": "The intent of this schedule is to permit triplexes and townhouses where all dwelling units are secured as residential rental tenure. [...] Without limitation, applicable Council policies and guidelines for consideration include the Residential Rental Districts Schedules Design Guidelines.",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.2",
+      "text": "The table below provides an overview of outright and conditional approval uses in the RR-1 district, categorized by the minimum site area required, where applicable. Applicable density, form and placement regulations in section 3 of this schedule are cross-referenced in the third column.",
+      "page": 1,
+      "section_title": "1.2 Overview"
+    },
+    {
+      "id": "2.1",
+      "text": "All outright and conditional approval uses are subject to all other provisions of this by-law, including Section 2, Section 10 and Section 11, and compliance with the regulations of this schedule including section 2.2. [...] The uses identified in the table below as outright approval uses are permitted in this district and will be issued a permit. [...] The uses identified in the table below as conditional approval uses may be approved in this district by the Director of Planning or Development Permit Board, with or without conditions, if the Director of Planning or Development Permit Board considers: [...] Uses are listed under their general land use category. Applicable use-specific regulations in section 2.2 of this schedule are cross-referenced in the third column. Cross-references to applicable use-specific regulations are provided for information purposes only and do not form part of this by-law.",
+      "page": 1,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(a)",
+      "text": "the intent of this schedule and all applicable Council policies and guidelines; and",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(b)",
+      "text": "the submission of any advisory group, property owner or tenant.",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.2",
+      "text": "",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1",
+      "text": "The Director of Planning may permit more than 1 principal building on a site if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2",
+      "text": "Accessory buildings customarily ancillary to any use listed in section 2.1 of this schedule may be permitted if: [...] This section contains density, form and placement regulations organized by use.",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(a)",
+      "text": "no accessory building exceeds 3.7 m in building height; and",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(b)",
+      "text": "all accessory buildings are located at least 0.6 m from the ultimate rear property line.",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "3.1",
+      "text": "All uses in this district are subject to the following regulations.",
+      "page": 3,
+      "section_title": "3.1 All Uses"
+    },
+    {
+      "id": "3.1.1",
+      "text": "",
+      "page": 3,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1",
+      "text": "All dwelling units must be secured as residential rental tenure, except that 1 dwelling unit in a townhouse containing up to 8 units or in a triplex may be occupied by a registered owner of the site.",
+      "page": 3,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2",
+      "text": "The maximum floor space ratio is:",
+      "page": 3,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2(a)",
+      "text": "1.45 for 4-storey townhouse containing more than 8 dwelling units;",
+      "page": 3,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2(b)",
+      "text": "1.20 for 3-storey townhouse containing more than 8 dwelling units;",
+      "page": 3,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2(c)",
+      "text": "1.00 for townhouse containing not less than 5 and not more than 8 dwelling units; and",
+      "page": 3,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2(d)",
+      "text": "1.00 for townhouse containing 4 dwelling units or triplex.",
+      "page": 3,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.2",
+      "text": "",
+      "page": 3,
+      "section_title": "3.1.2 Building Form and Placement"
+    },
+    {
+      "id": "3.1.2.1(a)",
+      "text": "Minimum site area for | 4-storey townhouse containing more than 8 dwelling units: 920 m²",
+      "page": 3,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.1(b)",
+      "text": "Minimum site area for | 3-storey townhouse containing more than 8 dwelling units: 613 m²",
+      "page": 3,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.1(c)",
+      "text": "Minimum site area for | townhouse containing not less than 5 and not more than 8 dwelling units: 465 m²",
+      "page": 3,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.1(d)",
+      "text": "Minimum site area for | townhouse containing 4 dwelling units or triplex: 303 m²",
+      "page": 3,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(a)",
+      "text": "Maximum site area for | 4-storey townhouse containing more than 8 dwelling units: 1,500 m2",
+      "page": 3,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(b)",
+      "text": "Maximum site area for | 3-storey townhouse containing more than 8 dwelling units: 1,500 m2",
+      "page": 3,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3(a)",
+      "text": "Minimum site frontage for | 4-storey townhouse containing more than 8 dwelling units: 30.1 m",
+      "page": 3,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3(b)",
+      "text": "Minimum site frontage for | 3-storey townhouse containing more than 8 dwelling units: 20.1 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3(c)",
+      "text": "Minimum site frontage for | townhouse containing not less than 5 and not more than 8 dwelling units: 15.2 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3(d)",
+      "text": "Minimum site frontage for | townhouse containing 4 dwelling units or triplex: 10.0 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(a)",
+      "text": "Maximum site frontage for | 4-storey townhouse containing more than 8 dwelling units: 40.2 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(b)",
+      "text": "Maximum site frontage for | 3-storey townhouse containing more than 8 dwelling units: 40.2 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(a)",
+      "text": "Maximum building height for | 4-storey townhouse containing more than 8 dwelling units other than a rear building: 13.7 m and 4 storeys",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(b)",
+      "text": "Maximum building height for | all other dwelling uses other than a rear building: 11.5 m and 3 storeys",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(c)",
+      "text": "Maximum building height for | a rear building: 10.7 m and 3 storeys",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.6",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.7",
+      "text": "Minimum side yard width: 1.2 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.8",
+      "text": "Minimum rear yard depth: 3.1 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.9",
+      "text": "Maximum building depth for townhouse containing not more than 8 dwelling units: 19.8 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.10(a)",
+      "text": "Minimum separation between | buildings located on a site frontage: 3.1 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.10(b)",
+      "text": "Minimum separation between | rear buildings: 3.1 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.10(c)",
+      "text": "Minimum separation between | buildings located on a site frontage and rear buildings: 7.3 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.10(d)",
+      "text": "Minimum separation between | a building facing a flanking street and any other townhouse building: 4.6 m",
+      "page": 4,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.11",
+      "text": "Despite the maximum building height in section 3.1.2.5(a) above, the fourth storey must be a partial storey not exceeding 60% of the storey immediately below.",
+      "page": 4,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.12",
+      "text": "Despite the maximum building height in section 3.1.2.5(c) above, the third storey must be a partial storey not exceeding 60% of the storey immediately below.",
+      "page": 5,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.13",
+      "text": "The maximum floor-to-floor height is 3.1 m.",
+      "page": 5,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.14",
+      "text": "The Director of Planning may: [...] if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines. [...] Side Yard",
+      "page": 5,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.14(a)",
+      "text": "vary the requirement for a partial storey in sections 3.1.2.11 and 3.1.2.12 above; and",
+      "page": 5,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.14(b)",
+      "text": "increase the maximum building height and floor-to-floor height,",
+      "page": 5,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.15",
+      "text": "Despite the minimum side yard width in section 3.1.2.7 above, on a corner site, the front yard regulations in section 3.1.2.6 above apply to the exterior side yard.",
+      "page": 5,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.16",
+      "text": "The Director of Planning may decrease the minimum side yard width if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 5,
+      "section_title": "Building Height and Floor-to-Floor Height"
+    },
+    {
+      "id": "3.1.2.17",
+      "text": "Minimum separation between buildings must be measured from the closest portion of the exterior walls of any other building on the site.",
+      "page": 5,
+      "section_title": "Building Separation"
+    },
+    {
+      "id": "3.1.2.18",
+      "text": "Despite the minimum building separation in section 3.1.2.10(c) above, where an entrance located at or above 1.5 m of grade, or more than 0.6 m below grade, is connected to grade by stairs that project into a courtyard, the separation between buildings must be at least 9.1 m.",
+      "page": 5,
+      "section_title": "Building Separation"
+    },
+    {
+      "id": "3.1.2.19",
+      "text": "The Director of Planning may decrease the minimum separation between buildings if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 5,
+      "section_title": "Building Separation"
+    },
+    {
+      "id": "3.1.2.20",
+      "text": "If the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines, the Director of Planning may vary: [...] All uses in this district are subject to the following regulations.",
+      "page": 6,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.20(a)",
+      "text": "the minimum and maximum site area;",
+      "page": 6,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.20(b)",
+      "text": "the minimum and maximum site frontage;",
+      "page": 6,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.20(c)",
+      "text": "the minimum front yard depth;",
+      "page": 6,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.20(d)",
+      "text": "the minimum rear yard depth; and",
+      "page": 6,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.20(e)",
+      "text": "the maximum building depth.",
+      "page": 6,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "4.1",
+      "text": "",
+      "page": 7,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.1.1",
+      "text": "No portion of underground parking is permitted to project into any required yard except for an access ramp, except that the Director of Planning may vary this requirement if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 7,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.1.2",
+      "text": "Entries, porches and verandahs complying with section 10.41 of this by-law may project up to 1.8 m into the required rear yard.",
+      "page": 7,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.2",
+      "text": "",
+      "page": 7,
+      "section_title": "4.2 Building Depth: Measurement"
+    },
+    {
+      "id": "4.2.1",
+      "text": "Building depth means the distance from the front exterior wall measured in a straight line to a point directly opposite on the rear exterior wall, except that balconies and entries, porches and verandahs that comply with section 10.8 of this by-law and section 4.1.2 of this schedule may be excluded from the measurement of building depth.",
+      "page": 7,
+      "section_title": "4.2 Building Depth: Measurement"
+    },
+    {
+      "id": "4.3",
+      "text": "",
+      "page": 7,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.1",
+      "text": "The following features are permitted in the courtyard:",
+      "page": 7,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.1(a)",
+      "text": "the features permitted in section 10.8 of this by-law, except balconies; and",
+      "page": 7,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.1(b)",
+      "text": "entries, porches and verandahs complying with section 10.41 of this by-law.",
+      "page": 7,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.2",
+      "text": "The minimum width of a dwelling unit in a townhouse must be at least 4.2 m, measured between finished wall surfaces.",
+      "page": 7,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.3",
+      "text": "The Director of Planning may vary the requirements of this section 4.3 if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 7,
+      "section_title": "4.3 External Design"
+    }
+  ],
+  "figures": [
+    {
+      "caption": "Building placement for a corner site - courtyard configuration",
+      "page": 5
+    },
+    {
+      "caption": "Minimum separation between buildings projecting into a courtyard",
+      "page": 5
+    }
+  ],
+  "use_groups": {
+    "3.1": "all_uses"
+  },
+  "group_members": {
+    "all_uses": [
+      "*",
+      "townhouse",
+      "triplex"
+    ]
+  },
+  "overview": [
+    {
+      "name": "4-storey Townhouse, containing more than 8 dwelling units",
+      "uses": [
+        "townhouse"
+      ],
+      "min_site_area_m2": 920.0,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "3-storey Townhouse, containing more than 8 dwelling units",
+      "uses": [
+        "townhouse"
+      ],
+      "min_site_area_m2": 613.0,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "Townhouse, containing not less than 5 and not more than 8 dwelling units",
+      "uses": [
+        "townhouse"
+      ],
+      "min_site_area_m2": 465.0,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "Townhouse, containing 4 dwelling units",
+      "uses": [
+        "townhouse"
+      ],
+      "min_site_area_m2": 303.0,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "Triplex",
+      "uses": [
+        "triplex"
+      ],
+      "min_site_area_m2": 303.0,
+      "section": "3.1",
+      "regulated_by": null
+    }
+  ],
+  "rental_only": true,
+  "schedule_districts": [
+    "RR-1"
+  ],
+  "parser_version": "0.1.0.dev0"
+}

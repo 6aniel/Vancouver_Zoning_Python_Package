@@ -1,0 +1,1177 @@
+{
+  "district": "RR-2A",
+  "name": null,
+  "intent": "The intent of this schedule is to permit apartments where all dwelling units are secured as residential rental tenure as follows:",
+  "source": {
+    "filename": "rr-2a-2b.pdf",
+    "sha256": "ada244844c0851555d8d1f14e83dae32af6519dabc2a8cc8be4ac292722670a6",
+    "title": "Zoning and Development By-law: RR-2A and RR-2B Districts Schedules",
+    "version_label": "October 2026",
+    "pages": 9
+  },
+  "uses": [
+    {
+      "use": "apartment",
+      "name": "Apartment",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "townhouse",
+      "name": "Townhouse",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.2"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_bike_share",
+      "name": "Public Bike Share",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "shared_e_scooter_system",
+      "name": "Shared E-Scooter System",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_buildings",
+      "name": "Accessory Buildings, customarily ancillary to any use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.3"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses",
+      "name": "Accessory Uses, customarily ancillary to any use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    }
+  ],
+  "regulations": [
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 613.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1",
+      "page": 5,
+      "source_text": "Minimum site area: 613 m²"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "apartment",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 13.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(a)",
+      "page": 5,
+      "source_text": "Maximum building height for | apartment: 13.7 m and 4 storeys"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "apartment",
+      "metric": "storeys",
+      "bound": "max",
+      "value": 4.0,
+      "unit": "storeys",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(a)",
+      "page": 5,
+      "source_text": "Maximum building height for | apartment: 13.7 m and 4 storeys"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(b)",
+      "page": 5,
+      "source_text": "Maximum building height for | townhouse: 10.7 m and 3 storeys"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "storeys",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "storeys",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(b)",
+      "page": 5,
+      "source_text": "Maximum building height for | townhouse: 10.7 m and 3 storeys"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3",
+      "page": 5,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 1.8,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4",
+      "page": 5,
+      "source_text": "Minimum side yard width: 1.8 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "apartment",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 7.6,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(a)",
+      "page": 5,
+      "source_text": "Minimum rear yard depth for | apartment: 7.6 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "apartment_in_combination_with_townhouse",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 3.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5(b)",
+      "page": 6,
+      "source_text": "Minimum rear yard depth for | apartment in combination with townhouse: 3.1 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "apartment",
+      "metric": "building_depth",
+      "bound": "max",
+      "value": 22.8,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.7",
+      "page": 6,
+      "source_text": "Maximum building depth for apartment: 22.8 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "building_width",
+      "bound": "max",
+      "value": 45.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.8",
+      "page": 6,
+      "source_text": "Maximum building width: 45.7 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "apartment",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 7.3,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "apartment_buildings_located_on_a_site_frontage",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.9(a)",
+      "page": 6,
+      "source_text": "Minimum separation between | apartment buildings located on a site frontage: 7.3 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "apartment",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 7.3,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "apartment_and_townhouse_buildings",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.9(b)",
+      "page": 6,
+      "source_text": "Minimum separation between | apartment and townhouse buildings: 7.3 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 7.3,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "apartment_and_townhouse_buildings",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.9(b)",
+      "page": 6,
+      "source_text": "Minimum separation between | apartment and townhouse buildings: 7.3 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 3.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "townhouse_buildings",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.9(c)",
+      "page": 6,
+      "source_text": "Minimum separation between | townhouse buildings: 3.1 m"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 920.0,
+        "site_depth_lte": 33.5,
+        "below_market_rental_share_gte": 0.2,
+        "transit_oriented_area": true
+      },
+      "clause": "3.1.1.5",
+      "page": 5,
+      "source_text": "Despite sections 3.1.1.4(a) and 3.1.1.4(b) above, the maximum floor space ratio is 3.00 if: the site: does not exceed 33.5 m in depth and has a minimum site area of 920 m2, or is a corner site with a minimum site frontage of 40.2 m and has a minimum site area of 1,470 m2; and either: a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or 100% of the residential floor area is developed as social housing."
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 920.0,
+        "site_depth_lte": 33.5,
+        "social_housing_share_gte": 1.0
+      },
+      "clause": "3.1.1.5",
+      "page": 5,
+      "source_text": "Despite sections 3.1.1.4(a) and 3.1.1.4(b) above, the maximum floor space ratio is 3.00 if: the site: does not exceed 33.5 m in depth and has a minimum site area of 920 m2, or is a corner site with a minimum site frontage of 40.2 m and has a minimum site area of 1,470 m2; and either: a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or 100% of the residential floor area is developed as social housing."
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 1470.0,
+        "site_frontage_gte": 40.2,
+        "corner_site": true,
+        "below_market_rental_share_gte": 0.2,
+        "transit_oriented_area": true
+      },
+      "clause": "3.1.1.5",
+      "page": 5,
+      "source_text": "Despite sections 3.1.1.4(a) and 3.1.1.4(b) above, the maximum floor space ratio is 3.00 if: the site: does not exceed 33.5 m in depth and has a minimum site area of 920 m2, or is a corner site with a minimum site frontage of 40.2 m and has a minimum site area of 1,470 m2; and either: a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or 100% of the residential floor area is developed as social housing."
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 1470.0,
+        "site_frontage_gte": 40.2,
+        "corner_site": true,
+        "social_housing_share_gte": 1.0
+      },
+      "clause": "3.1.1.5",
+      "page": 5,
+      "source_text": "Despite sections 3.1.1.4(a) and 3.1.1.4(b) above, the maximum floor space ratio is 3.00 if: the site: does not exceed 33.5 m in depth and has a minimum site area of 920 m2, or is a corner site with a minimum site frontage of 40.2 m and has a minimum site area of 1,470 m2; and either: a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or 100% of the residential floor area is developed as social housing."
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 920.0,
+        "social_housing_share_gte": 1.0
+      },
+      "clause": "3.1.1.6",
+      "page": 5,
+      "source_text": "Despite section 3.1.1.4(c) above, the maximum floor space ratio is 2.70 if the site has a minimum site area of 920 m2 and 100% of the residential floor area is developed as social housing."
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "townhouse",
+      "metric": "top_storey_fraction",
+      "bound": "max",
+      "value": 0.6,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.11",
+      "page": 6,
+      "source_text": "Despite the maximum building height in section 3.1.2.2(b) above, the third storey of a townhouse must be a partial storey not exceeding 60% of the storey immediately below."
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_depth_lte": 33.5,
+        "site_area_gte": 1470.0
+      },
+      "clause": "3.1.1.3(a)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (a) on a site that does not exceed 33.5 m in depth | min site area 1470 m2: 2.00"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_depth_lte": 33.5,
+        "site_area_gte": 920.0
+      },
+      "clause": "3.1.1.3(a)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (a) on a site that does not exceed 33.5 m in depth | min site area 920 m2: 2.00"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_depth_lte": 33.5,
+        "site_area_gte": 613.0
+      },
+      "clause": "3.1.1.3(a)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (a) on a site that does not exceed 33.5 m in depth | min site area 613 m2: 2.00"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 40.2,
+        "corner_site": true,
+        "site_area_gte": 1470.0
+      },
+      "clause": "3.1.1.3(b)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (b) on a corner site with a minimum site frontage of 40.2 m | min site area 1470 m2: 2.00"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.75,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 40.2,
+        "corner_site": true,
+        "site_area_gte": 920.0
+      },
+      "clause": "3.1.1.3(b)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (b) on a corner site with a minimum site frontage of 40.2 m | min site area 920 m2: 1.75"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.75,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 40.2,
+        "corner_site": true,
+        "site_area_gte": 613.0
+      },
+      "clause": "3.1.1.3(b)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (b) on a corner site with a minimum site frontage of 40.2 m | min site area 613 m2: 1.75"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.75,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 1470.0
+      },
+      "clause": "3.1.1.3(c)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (c) all other sites | min site area 1470 m2: 1.75"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.75,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 920.0
+      },
+      "clause": "3.1.1.3(c)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (c) all other sites | min site area 920 m2: 1.75"
+    },
+    {
+      "district": "RR-2A",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.75,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_area_gte": 613.0
+      },
+      "clause": "3.1.1.3(c)",
+      "page": 4,
+      "source_text": "In the RR-2A district, the maximum floor space ratio is set out in the following table: | (c) all other sites | min site area 613 m2: 1.75"
+    }
+  ],
+  "clauses": [
+    {
+      "id": "1.1",
+      "text": "The intent of this schedule is to permit apartments where all dwelling units are secured as residential rental tenure as follows:",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(a)",
+      "text": "in the RR-2A district, up to 4 storeys; and",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(b)",
+      "text": "in the RR-2B district, up to 6 storeys, or up to 8 storeys if: [...] On sites of sufficient depth, 3-storey townhouses may be permitted in combination with an apartment if townhouses are located at the rear of the site. [...] For the purposes of this schedule, below-market rental dwelling units has the meaning set out in Schedule J: Affordable Housing Schedule. [...] Without limitation, applicable Council policies and guidelines for consideration include the Residential Rental Districts Schedules Design Guidelines.",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(b)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(b)(ii)",
+      "text": "100% of the residential floor area is developed as social housing.",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.2",
+      "text": "The table below provides an overview of outright and conditional approval uses in the RR-2A and RR-2B districts, categorized by the minimum site area required, where applicable. Applicable density, form and placement regulations in section 3 of this schedule are cross-referenced in the third column.",
+      "page": 1,
+      "section_title": "1.2 Overview"
+    },
+    {
+      "id": "2.1",
+      "text": "All outright and conditional approval uses are subject to all other provisions of this by-law, including Section 2, Section 10 and Section 11, and compliance with the regulations of this schedule including section 2.2. [...] The uses identified in the table below as outright approval uses are permitted in these districts and will be issued a permit. [...] The uses identified in the table below as conditional approval uses may be approved in these districts by the Director of Planning or Development Permit Board, with or without conditions, if the Director of Planning or Development Permit Board considers: [...] Uses are listed under their general land use category. Applicable use-specific regulations in section 2.2 of this schedule are cross-referenced in the third column. Cross-references to applicable use-specific regulations are provided for information purposes only and do not form part of this by-law.",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(a)",
+      "text": "the intent of this schedule and all applicable Council policies and guidelines; and",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(b)",
+      "text": "the submission of any advisory group, property owner or tenant.",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.2",
+      "text": "",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1",
+      "text": "The Director of Planning may permit more than 1 principal building on a site if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2",
+      "text": "Townhouse is only permitted in combination with apartment and must be located at the rear of the site.",
+      "page": 2,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3",
+      "text": "Accessory buildings customarily ancillary to any use listed in section 2.1 of this schedule may be permitted if: [...] This section contains density, form and placement regulations organized by use.",
+      "page": 3,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3(a)",
+      "text": "no accessory building exceeds 3.7 m in building height; and",
+      "page": 3,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3(b)",
+      "text": "all accessory buildings are located at least 0.6 m from the ultimate rear property line.",
+      "page": 3,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "3.1",
+      "text": "All uses in these districts are subject to the following regulations.",
+      "page": 4,
+      "section_title": "3.1 All Uses"
+    },
+    {
+      "id": "3.1.1",
+      "text": "",
+      "page": 4,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1",
+      "text": "Developments requiring below-market rental dwelling units or social housing are subject to Schedule J: Affordable Housing Schedule.",
+      "page": 4,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2",
+      "text": "All dwelling units must be secured as residential rental tenure.",
+      "page": 4,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.3",
+      "text": "In the RR-2A district, the maximum floor space ratio is set out in the following table:",
+      "page": 4,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.4",
+      "text": "In the RR-2B district, the maximum floor space ratio is set out in the following table:",
+      "page": 4,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.5",
+      "text": "Despite sections 3.1.1.4(a) and 3.1.1.4(b) above, the maximum floor space ratio is 3.00 if:",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.5(a)",
+      "text": "the site:",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.5(a)(i)",
+      "text": "does not exceed 33.5 m in depth and has a minimum site area of 920 m2, or",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.5(a)(ii)",
+      "text": "is a corner site with a minimum site frontage of 40.2 m and has a minimum site area of 1,470 m2; and",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.5(b)",
+      "text": "either:",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.5(b)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.5(b)(ii)",
+      "text": "100% of the residential floor area is developed as social housing.",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.6",
+      "text": "Despite section 3.1.1.4(c) above, the maximum floor space ratio is 2.70 if the site has a minimum site area of 920 m2 and 100% of the residential floor area is developed as social housing.",
+      "page": 5,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.2",
+      "text": "",
+      "page": 5,
+      "section_title": "3.1.2 Building Form and Placement"
+    },
+    {
+      "id": "3.1.2.1",
+      "text": "Minimum site area: RR-2A: 613 m² | RR-2B: 613 m²",
+      "page": 5,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(a)",
+      "text": "Maximum building height for | apartment: RR-2A: 13.7 m and 4 storeys | RR-2B: 19.8 m and 6 storeys",
+      "page": 5,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(b)",
+      "text": "Maximum building height for | townhouse: RR-2A: 10.7 m and 3 storeys | RR-2B: 10.7 m and 3 storeys",
+      "page": 5,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3",
+      "text": "Minimum front yard depth: RR-2A: 3.7 m | RR-2B: 3.7 m",
+      "page": 5,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4",
+      "text": "Minimum side yard width: RR-2A: 1.8 m | RR-2B: 2.4 m",
+      "page": 5,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(a)",
+      "text": "Minimum rear yard depth for | apartment: RR-2A: 7.6 m | RR-2B: 7.6 m",
+      "page": 5,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(b)",
+      "text": "Minimum rear yard depth for | apartment in combination with townhouse: RR-2A: 3.1 m | RR-2B: 3.1 m",
+      "page": 6,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.6",
+      "text": "Minimum setback of all exterior walls of the sixth storey from the exterior face of the wall of the storey below, for apartment: RR-2A: 2.4 m | RR-2B: 2.4 m",
+      "page": 6,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.7",
+      "text": "Maximum building depth for apartment: RR-2A: 22.8 m | RR-2B: 22.8 m",
+      "page": 6,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.8",
+      "text": "Maximum building width: RR-2A: 45.7 m | RR-2B: 45.7 m",
+      "page": 6,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.9(a)",
+      "text": "Minimum separation between | apartment buildings located on a site frontage: RR-2A: 7.3 m | RR-2B: 7.3 m",
+      "page": 6,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.9(b)",
+      "text": "Minimum separation between | apartment and townhouse buildings: RR-2A: 7.3 m | RR-2B: 7.3 m",
+      "page": 6,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.9(c)",
+      "text": "Minimum separation between | townhouse buildings: RR-2A: 3.1 m | RR-2B: 3.1 m",
+      "page": 6,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.10",
+      "text": "Despite section 3.1.2.2(a) above, the maximum building height is 27.5 m in the RR-2B district for buildings where:",
+      "page": 6,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.10(a)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area; or",
+      "page": 6,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.10(b)",
+      "text": "100% of the residential floor area is developed as social housing.",
+      "page": 6,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.11",
+      "text": "Despite the maximum building height in section 3.1.2.2(b) above, the third storey of a townhouse must be a partial storey not exceeding 60% of the storey immediately below.",
+      "page": 6,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.12",
+      "text": "The Director of Planning may: [...] if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines. [...] Side Yard",
+      "page": 6,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.12(a)",
+      "text": "vary the requirement for a partial storey in section 3.1.2.11 above; and",
+      "page": 6,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.12(b)",
+      "text": "increase the maximum building height,",
+      "page": 6,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.13",
+      "text": "Despite the minimum side yard width in section 3.1.2.4 above, in the case of a corner site, the front yard regulations in section 3.1.2.3 above apply to the exterior side yard.",
+      "page": 7,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.14",
+      "text": "The Director of Planning may decrease the minimum side yard width if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 7,
+      "section_title": "Building Height"
+    },
+    {
+      "id": "3.1.2.15",
+      "text": "Despite the minimum rear yard depth in section 3.1.2.5(a) above, in the case of an apartment on a corner site, the minimum depth of the rear yard may be decreased to 4.6 m, if the portion of the building for which the rear yard is decreased:",
+      "page": 7,
+      "section_title": "Rear Yard"
+    },
+    {
+      "id": "3.1.2.15(a)",
+      "text": "is located a minimum distance of 15.3 m from an adjoining site with or without the intervention of a lane, measured from the side property line; and",
+      "page": 7,
+      "section_title": "Rear Yard"
+    },
+    {
+      "id": "3.1.2.15(b)",
+      "text": "does not exceed 22.8 m in width.",
+      "page": 7,
+      "section_title": "Rear Yard"
+    },
+    {
+      "id": "3.1.2.16",
+      "text": "The Director of Planning may decrease the minimum rear yard depth if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 7,
+      "section_title": "Rear Yard"
+    },
+    {
+      "id": "3.1.2.17",
+      "text": "The minimum setback of all exterior walls in section 3.1.2.6 above is not required if dwelling units are secured as social housing.",
+      "page": 7,
+      "section_title": "Setback"
+    },
+    {
+      "id": "3.1.2.18",
+      "text": "The Director of Planning may decrease the minimum setback of all exterior walls if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 7,
+      "section_title": "Setback"
+    },
+    {
+      "id": "3.1.2.19",
+      "text": "Minimum separation between buildings in section 3.1.2.9(a) above must be measured from the closest portion of the exterior side wall of any other apartment on the site.",
+      "page": 7,
+      "section_title": "Building Separation"
+    },
+    {
+      "id": "3.1.2.20",
+      "text": "Minimum separation between buildings in sections 3.1.2.9(b) and 3.1.2.9(c) above must be measured from the closest portion of the exterior walls of the buildings.",
+      "page": 7,
+      "section_title": "Building Separation"
+    },
+    {
+      "id": "3.1.2.21",
+      "text": "The Director of Planning may decrease the minimum separation between buildings if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 8,
+      "section_title": "Building Separation"
+    },
+    {
+      "id": "3.1.2.22",
+      "text": "If the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines, the Director of Planning may vary: [...] All uses in these districts are subject to the following regulations.",
+      "page": 8,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.22(a)",
+      "text": "the minimum site area;",
+      "page": 8,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.22(b)",
+      "text": "the minimum front yard depth;",
+      "page": 8,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.22(c)",
+      "text": "the maximum building depth; and",
+      "page": 8,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.22(d)",
+      "text": "the maximum building width.",
+      "page": 8,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "4.1",
+      "text": "",
+      "page": 9,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.1.1",
+      "text": "No portion of underground parking other than an access ramp is permitted to project into a front or exterior side yard, except that the Director of Planning may vary this requirement if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 9,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.1.2",
+      "text": "Entries, porches and verandahs complying with section 10.41 of this by-law may project up to 1.8 m into the required rear yard.",
+      "page": 9,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.2",
+      "text": "",
+      "page": 9,
+      "section_title": "4.2 Building Depth: Measurement"
+    },
+    {
+      "id": "4.2.1",
+      "text": "Building depth means the distance from the front exterior wall measured in a straight line to a point directly opposite on the rear exterior wall, except that balconies and entries, porches and verandahs that comply with section 10.8 of this by-law and section 4.1.2 of this schedule may be excluded from the measurement of building depth.",
+      "page": 9,
+      "section_title": "4.2 Building Depth: Measurement"
+    },
+    {
+      "id": "4.3",
+      "text": "",
+      "page": 9,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.1",
+      "text": "The following features are permitted in the courtyard:",
+      "page": 9,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.1(a)",
+      "text": "the features permitted in section 10.8 of this by-law, except balconies; and",
+      "page": 9,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.1(b)",
+      "text": "entries, porches and verandahs complying with section section 10.41 of this by-law.",
+      "page": 9,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.2",
+      "text": "The minimum width of a dwelling unit in a townhouse is 4.2 m, measured between finished wall surfaces.",
+      "page": 9,
+      "section_title": "4.3 External Design"
+    },
+    {
+      "id": "4.3.3",
+      "text": "The Director of Planning may vary the requirements of this section 4.3 if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 9,
+      "section_title": "4.3 External Design"
+    }
+  ],
+  "figures": [
+    {
+      "caption": "Building placement - courtyard configuration",
+      "page": 6
+    },
+    {
+      "caption": "Decreased minimum rear yard depth for apartment on a corner site",
+      "page": 7
+    }
+  ],
+  "use_groups": {
+    "3.1": "all_uses"
+  },
+  "group_members": {
+    "all_uses": [
+      "*",
+      "apartment",
+      "apartment_in_combination_with_townhouse"
+    ]
+  },
+  "overview": [
+    {
+      "name": "Apartment",
+      "uses": [
+        "apartment"
+      ],
+      "min_site_area_m2": 613.0,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "Apartment in combination with Townhouse",
+      "uses": [
+        "apartment_in_combination_with_townhouse"
+      ],
+      "min_site_area_m2": 613.0,
+      "section": "3.1",
+      "regulated_by": null
+    }
+  ],
+  "rental_only": true,
+  "schedule_districts": [
+    "RR-2A",
+    "RR-2B"
+  ],
+  "parser_version": "0.1.0.dev0"
+}

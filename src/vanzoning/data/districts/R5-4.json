@@ -1,0 +1,2140 @@
+{
+  "district": "R5-4",
+  "name": null,
+  "intent": "The intent of this districts schedule, which contains the regulations for the R5-1, R5-2, R5-3 and R5-4 districts, is to encourage high-rise apartments and mixed-use residential buildings of varied tenures, while also preserving lower density options. [...] For the purposes of the R5 Districts Schedule: [...] Without limitation, applicable Council policies and guidelines for consideration include the Design and Development Guidelines.",
+  "source": {
+    "filename": "r5.pdf",
+    "sha256": "199690306c7e99ce7585ac04a181dfcd1e41ae7210252845f49b446b947dd740",
+    "title": "Zoning and Development By-law: R5 Districts Schedule",
+    "version_label": "October 2026",
+    "pages": 16
+  },
+  "uses": [
+    {
+      "use": "urban_farm_class_a",
+      "name": "Urban Farm - Class A",
+      "category": "Agricultural Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "artist_studio_class_a",
+      "name": "Artist Studio - Class A",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "bowling_alley",
+      "name": "Bowling Alley",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "club",
+      "name": "Club",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_centre_or_neighbourhood_house",
+      "name": "Community Centre or Neighbourhood House",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "fitness_centre",
+      "name": "Fitness Centre",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "library",
+      "name": "Library, in combination with Community Centre",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "museum_or_archives",
+      "name": "Museum or Archives",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "park_or_playground",
+      "name": "Park or Playground",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "plaza",
+      "name": "Plaza",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "theatre",
+      "name": "Theatre",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "apartment",
+      "name": "Apartment containing more than 8 dwelling units",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.6",
+        "2.2.7"
+      ],
+      "min_units": 9,
+      "max_units": null
+    },
+    {
+      "use": "apartment",
+      "name": "Apartment containing more than 8 dwelling units, in combination with Townhouse",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.6",
+        "2.2.7",
+        "2.2.8"
+      ],
+      "min_units": 9,
+      "max_units": null
+    },
+    {
+      "use": "duplex",
+      "name": "Duplex",
+      "category": "Dwelling Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "duplex_with_secondary_suite",
+      "name": "Duplex with Secondary Suite",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.4",
+        "2.2.6"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "infill",
+      "name": "Infill, in combination with the retention of a character house",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.4",
+        "2.2.6"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "laneway_house",
+      "name": "Laneway House",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "mixed_use_residential_building",
+      "name": "Mixed-Use Residential Building",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.6",
+        "2.2.7",
+        "2.2.9"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "multiple_conversion_dwelling",
+      "name": "Multiple Conversion Dwelling, resulting from the conversion of a character house",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.4",
+        "2.2.6"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "multiple_dwelling",
+      "name": "Multiple Dwelling containing no more than 8 dwelling units",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.3",
+        "2.2.6"
+      ],
+      "min_units": 9,
+      "max_units": null
+    },
+    {
+      "use": "principal_dwelling_unit_with_lock_off_unit",
+      "name": "Principal Dwelling Unit with Lock-Off Unit",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "seniors_supportive_or_independent_living_housing",
+      "name": "Seniors Supportive or Independent Living Housing",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.6"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "single_detached_house",
+      "name": "Single Detached House",
+      "category": "Dwelling Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "single_detached_house_with_secondary_suite",
+      "name": "Single Detached House with Secondary Suite",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "townhouse",
+      "name": "Townhouse containing more than 8 dwelling units",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.2",
+        "2.2.6"
+      ],
+      "min_units": 9,
+      "max_units": null
+    },
+    {
+      "use": "ambulance_station",
+      "name": "Ambulance Station",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "child_day_care_facility",
+      "name": "Child Day Care Facility",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "child_day_care_facility_conversion_dwelling",
+      "name": "Child Day Care Facility Conversion Dwelling",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.12"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "church",
+      "name": "Church",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_care_or_assisted_living_facility_class_a",
+      "name": "Community Care or Assisted Living Facility - Class A",
+      "category": "Institutional Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_care_or_assisted_living_facility_class_b",
+      "name": "Community Care or Assisted Living Facility - Class B",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "group_residence",
+      "name": "Group Residence",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "hospital",
+      "name": "Hospital",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_authority_use",
+      "name": "Public Authority Use, essential in these districts",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_elementary_or_secondary",
+      "name": "School - Elementary or Secondary",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "social_service_centre",
+      "name": "Social Service Centre",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "jewellery_manufacturing",
+      "name": "Jewellery Manufacturing",
+      "category": "Manufacturing Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "financial_institution",
+      "name": "Financial Institution",
+      "category": "Office Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "general_office",
+      "name": "General Office",
+      "category": "Office Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "health_care_office",
+      "name": "Health Care Office",
+      "category": "Office Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "health_enhancement_centre",
+      "name": "Health Enhancement Centre",
+      "category": "Office Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "temporary_sales_office",
+      "name": "Temporary Sales Office",
+      "category": "Office Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "farmers_market",
+      "name": "Farmers’ Market",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "grocery_or_drug_store",
+      "name": "Grocery or Drug Store",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "grocery_store_with_liquor_store",
+      "name": "Grocery Store with Liquor Store",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "liquor_store",
+      "name": "Liquor Store",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "neighbourhood_grocery_store",
+      "name": "Neighbourhood Grocery Store",
+      "category": "Retail Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "pawnshop",
+      "name": "Pawnshop",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_bike_share",
+      "name": "Public Bike Share",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "retail_store",
+      "name": "Retail Store",
+      "category": "Retail Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "secondhand_store",
+      "name": "Secondhand Store",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "shared_e_scooter_system",
+      "name": "Shared E-Scooter System",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "small_scale_pharmacy",
+      "name": "Small-Scale Pharmacy",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "animal_clinic",
+      "name": "Animal Clinic",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "barber_shop_or_beauty_salon",
+      "name": "Barber Shop or Beauty Salon",
+      "category": "Service Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "beauty_and_wellness_centre",
+      "name": "Beauty and Wellness Centre",
+      "category": "Service Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "bed_and_breakfast_accommodation",
+      "name": "Bed and Breakfast Accommodation",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "hotel",
+      "name": "Hotel",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "laundromat_or_dry_cleaning_establishment",
+      "name": "Laundromat or Dry Cleaning Establishment",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "motor_vehicle_repair_shop",
+      "name": "Motor Vehicle Repair Shop",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "photofinishing_or_photography_studio",
+      "name": "Photofinishing or Photography Studio",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "print_shop",
+      "name": "Print Shop",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "repair_shop_class_b",
+      "name": "Repair Shop - Class B",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "restaurant_class_1",
+      "name": "Restaurant - Class 1",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_arts_or_self_improvement",
+      "name": "School - Arts or Self-Improvement",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_business",
+      "name": "School - Business",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_vocational_or_trade",
+      "name": "School - Vocational or Trade",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "short_term_rental_accommodation",
+      "name": "Short Term Rental Accommodation",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "wedding_chapel",
+      "name": "Wedding Chapel",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_utility",
+      "name": "Public Utility",
+      "category": "Utility and Communication Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_building",
+      "name": "Accessory Building, customarily ancillary to any outright approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.10"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_building",
+      "name": "Accessory Building, customarily ancillary to any conditional approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.10"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses",
+      "name": "Accessory Uses, customarily ancillary to any outright approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses",
+      "name": "Accessory Uses, customarily ancillary to any conditional approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "any_other_use_that_is_not_specifically_listed_and_defined_as_a_use_in_section_2_of_this_by_law",
+      "name": "Any other use that is not specifically listed and defined as a use in Section 2 of this by-law",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.11"
+      ],
+      "min_units": null,
+      "max_units": null
+    }
+  ],
+  "regulations": [
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 1348.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "corner_site": true
+      },
+      "clause": "3.1.2.1(a)",
+      "page": 12,
+      "source_text": "Minimum site area for | corner site: 1,348 m2"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 1532.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1(b)",
+      "page": 12,
+      "source_text": "Minimum site area for | all other sites: 1,532 m2"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 40.0,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "corner_site": true
+      },
+      "clause": "3.1.2.2(a)",
+      "page": 12,
+      "source_text": "Minimum site frontage for | corner site: 40.0 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 45.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(b)",
+      "page": 12,
+      "source_text": "Minimum site frontage for | all other sites: 45.7 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 84.0,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3",
+      "page": 12,
+      "source_text": "Maximum building height: 84.0 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4",
+      "page": 13,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5",
+      "page": 13,
+      "source_text": "Minimum side yard width: 3.7 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 6.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.6",
+      "page": 13,
+      "source_text": "Minimum rear yard depth: 6.1 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 11.5,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.1",
+      "page": 15,
+      "source_text": "Maximum building height: 11.5 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.2",
+      "page": 15,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.3",
+      "page": 15,
+      "source_text": "Minimum side yard width: 1.2 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 3.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.4",
+      "page": 15,
+      "source_text": "Minimum rear yard depth: 3.1 m"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "apartment",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 6.5,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "below_market_rental_share_gte": 0.2
+      },
+      "clause": "3.1.1.9(b)(i)",
+      "page": 12,
+      "source_text": "6.50 for high-rise apartment, and"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "apartment",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 6.5,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "social_housing_share_gte": 1.0
+      },
+      "clause": "3.1.1.9(b)(i)",
+      "page": 12,
+      "source_text": "6.50 for high-rise apartment, and"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "mixed_use_residential_building",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 6.8,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "below_market_rental_share_gte": 0.2
+      },
+      "clause": "3.1.1.9(b)(ii)",
+      "page": 12,
+      "source_text": "6.80 for high-rise mixed-use residential building, provided that the floor area for non-dwelling uses must be at least 139 m2 for all non-dwelling uses combined,"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "mixed_use_residential_building",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 6.8,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "social_housing_share_gte": 1.0
+      },
+      "clause": "3.1.1.9(b)(ii)",
+      "page": 12,
+      "source_text": "6.80 for high-rise mixed-use residential building, provided that the floor area for non-dwelling uses must be at least 139 m2 for all non-dwelling uses combined,"
+    },
+    {
+      "district": "R5-4",
+      "group": "apartment_and_mixed_use_residential_building",
+      "use": "*",
+      "metric": "site_frontage",
+      "bound": "max",
+      "value": 60.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.7",
+      "page": 13,
+      "source_text": "The maximum site frontage is 60.7 m, except that the Director of Planning may increase the maximum site frontage if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines."
+    },
+    {
+      "district": "R5-4",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.45,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.1.1",
+      "page": 15,
+      "source_text": "The maximum floor space ratio is 1.45."
+    }
+  ],
+  "clauses": [
+    {
+      "id": "1.1",
+      "text": "The intent of this districts schedule, which contains the regulations for the R5-1, R5-2, R5-3 and R5-4 districts, is to encourage high-rise apartments and mixed-use residential buildings of varied tenures, while also preserving lower density options. [...] For the purposes of the R5 Districts Schedule: [...] Without limitation, applicable Council policies and guidelines for consideration include the Design and Development Guidelines.",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(a)",
+      "text": "below-market rental dwelling units has the meaning set out in Schedule J: Affordable Housing Schedule of this by-law;",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(b)",
+      "text": "low-rise apartment means apartment containing more than 8 dwelling units with a maximum building height of 23.0 m, or with a maximum building height of 27.5 m where;",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(b)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(b)(ii)",
+      "text": "100% of the residential floor area is developed as social housing;",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(c)",
+      "text": "low-rise mixed-use residential building means mixed-use residential building with a maximum building height of 23.0 m, or with a maximum building height of 27.5 m where:",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(c)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units and the site is in a transit-oriented area, or",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(c)(ii)",
+      "text": "100% of the residential floor area is developed as social housing;",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(d)",
+      "text": "high-rise apartment means apartment containing more than 8 dwelling units with a maximum building height of 84.0 m, or with a maximum building height of 69.0 m in the R5-2 district;",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(e)",
+      "text": "high-rise mixed-use residential building means mixed-use residential building with a maximum building height of 84.0 m, or with a maximum building height of 69.0 m in the R5-2 district; and",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.1(f)",
+      "text": "transit-oriented area means an area designated as a transit-oriented area under the Transit-Oriented Areas Designation By-law.",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.2",
+      "text": "The table below provides an overview of the outright and conditional approval uses in the R5-1, R5-2, R5-3 and R5-4 districts, categorized by the minimum site area required, where applicable. Applicable density, form and placement regulations in section 3 of this schedule are cross-referenced in the third column.",
+      "page": 2,
+      "section_title": "1.2 Overview"
+    },
+    {
+      "id": "2.1",
+      "text": "All outright and conditional approval uses are subject to all other provisions of this by-law, including Section 2, Section 10 and Section 11, and compliance with the regulations of this schedule including section 2.2. [...] The uses identified in the table below as outright approval uses are permitted in these districts and will be issued a permit. [...] The uses identified in the table below as conditional approval uses may be approved in these districts by the Director of Planning, with or without conditions, if the Director of Planning considers: [...] Uses are listed under their general land use category. Applicable use-specific regulations in section 2.2 of this schedule are cross-referenced in the third column. Cross-references to applicable use-specific regulations are provided for information purposes only and do not form part of this by-law.",
+      "page": 3,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(a)",
+      "text": "the intent of this schedule and all applicable Council policies and guidelines; and",
+      "page": 3,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(b)",
+      "text": "the submission of any advisory group, property owner or tenant.",
+      "page": 3,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.2",
+      "text": "",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1",
+      "text": "Low-rise apartment, low-rise apartment in combination with townhouse, and low-rise mixed-use residential building must comply with the regulations that apply to:",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(a)",
+      "text": "the R3-1 district if the site is in the R5-1 district;",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(b)",
+      "text": "the R3-2 district if the site is in the R5-2 district; and",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(c)",
+      "text": "the R3-3 district if the site is in the R5-3 or R5-4 districts.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2",
+      "text": "Townhouse containing more than 8 units must comply with the regulations that apply to:",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(a)",
+      "text": "the RM-8A district if the site is in the R5-1 district, except that section 3.1.1.3 of the RM-8 and RM- 8A Districts Schedule does not apply;",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(b)",
+      "text": "the RR-1 district if the site is in the R5-2 district; and",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(c)",
+      "text": "if the site is in the R5-3 or R5-4 districts:",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(c)(i)",
+      "text": "the RR-1 district if it:",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(c)(i)(A)",
+      "text": "requires the demolition, or change of use or occupancy of a rental housing unit on that site, or",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(c)(i)(B)",
+      "text": "would have required such demolition, or change of use or occupancy had a person, during the 3 years preceding the date of application for a development permit, not demolished 1 or more rental housing units or changed their use or occupancy, and",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2(c)(ii)",
+      "text": "the RM-8A district in all other cases, except that section 3.1.1.3 of the RM-8 and RM-8A Districts Schedule does not apply.",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3",
+      "text": "Multiple dwelling containing no more than 8 dwelling units must comply with:",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3(a)",
+      "text": "the regulations that apply to the R1-1 district, except that section 3.1.1.3(b)(ii) of the R1-1 District Schedule does not apply; and",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3(b)",
+      "text": "section 2.2.6 of this schedule if the site is in the R5-3 or R5-4 districts.",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4",
+      "text": "The following uses must comply with the regulations that apply to the R1-1 district:",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(a)",
+      "text": "community care or assisted living facility - class A;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(b)",
+      "text": "duplex;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(c)",
+      "text": "duplex with secondary suite;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(d)",
+      "text": "infill, in combination with the retention of a character house;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(e)",
+      "text": "laneway house;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(f)",
+      "text": "multiple conversion dwelling, resulting from the conversion of a character house;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(g)",
+      "text": "principal dwelling unit with lock-off unit;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(h)",
+      "text": "single detached house; and",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4(i)",
+      "text": "single detached house with secondary suite.",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5",
+      "text": "The following uses listed in section 2.1 above may be permitted as a conditional approval use if the Director of Planning considers the impact of the use with respect to nearby sites, parking, traffic, noise, pedestrian amenity and size of facility:",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5(a)",
+      "text": "cultural and recreational uses, limited to bowling alley, club, fitness centre, museum or archives, and theatre;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5(b)",
+      "text": "manufacturing uses;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5(c)",
+      "text": "office uses, limited to health enhancement centre and temporary sales office;",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5(d)",
+      "text": "retail uses, limited to farmers’ market, grocery or drug store, grocery store with liquor store, liquor store, pawnshop, public bike share, secondhand store, shared e-scooter system and small-scale pharmacy; and",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5(e)",
+      "text": "service uses, limited to animal clinic, bed and breakfast accommodation, hotel, laundromat or dry cleaning establishment, motor vehicle repair shop, photofinishing or photography studio, print shop, repair shop - class B, restaurant - class 1, school - arts or self-improvement, school - business, school - vocational or trade, short term rental accommodation or wedding chapel.",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6",
+      "text": "In the R5-3 and R5-4 districts, development on any site consisting of 3 or more dwelling units that: [...] is subject to the Rental Housing Stock Official Development Plan.",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6(a)",
+      "text": "requires the demolition, or change of use or occupancy of a rental housing unit on that site; or",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6(b)",
+      "text": "would have required such demolition, or change of use or occupancy had a person, during the 3 years preceding the date of application for a development permit, not demolished 1 or more rental housing units or changed their use or occupancy,",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7",
+      "text": "The Director of Planning may permit more than 1 principal building on a site if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.8",
+      "text": "Low-rise apartment in combination with townhouse may only be permitted if the townhouse building is located at the rear of the site.",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.9",
+      "text": "High-rise mixed-use residential building may include any non-dwelling use listed in section 2.1 of this schedule.",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.10",
+      "text": "Accessory buildings customarily ancillary to any use listed in section 2.1 of this schedule, except uses that are regulated by other district schedules, may only be permitted if:",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.10(a)",
+      "text": "no accessory building exceeds 4.6 m in building height; and",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.10(b)",
+      "text": "all accessory buildings are located:",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.10(b)(i)",
+      "text": "at least 3.1 m from the ultimate centre line of any rear or flanking lane, and",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.10(b)(ii)",
+      "text": "at least 0.6 m from the ultimate rear property line.",
+      "page": 8,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.11",
+      "text": "Any other use that is not specifically listed and defined as a use in Section 2 of this by-law may be permitted if the Director of Planning considers the use to be comparable in nature to the uses listed in this schedule, having regard to the intent of this schedule.",
+      "page": 9,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.12",
+      "text": "Child day care facility conversion dwelling is subject to the regulations, variations and relaxations that apply to: [...] This section contains density, form and placement regulations organized by use.",
+      "page": 9,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.12(a)",
+      "text": "single detached house, when the child day care facility conversion dwelling was converted from a single detached house; and",
+      "page": 9,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.12(b)",
+      "text": "single detached house with secondary suite, when the child day care facility conversion dwelling was converted from a single detached house with secondary suite.",
+      "page": 9,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "3.1",
+      "text": "High-rise apartment and high-rise mixed-use residential building are subject to the following regulations.",
+      "page": 10,
+      "section_title": "3.1 High-Rise Apartment and High-Rise Mixed-Use Residential Building"
+    },
+    {
+      "id": "3.1.1",
+      "text": "",
+      "page": 10,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1",
+      "text": "For all R5 districts, developments requiring below-market rental dwelling units or social housing are subject to Schedule J: Affordable Housing Schedule.",
+      "page": 10,
+      "section_title": "All R5 Districts"
+    },
+    {
+      "id": "3.1.1.2",
+      "text": "In the R5-1 district, for high-rise apartment, if the form of tenure for the residential floor area:",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.2(a)",
+      "text": "is secured as 100% residential rental tenure, the maximum floor space ratio is 6.50 if:",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.2(a)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units, or",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.2(a)(ii)",
+      "text": "100% of the residential floor area is developed as social housing; or",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.2(b)",
+      "text": "includes any tenure other than residential rental tenure, the maximum floor space ratio is 5.00 if a minimum of 20% of the residential floor area is developed as social housing.",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3",
+      "text": "In the R5-1 district, for high-rise mixed-use residential building, the floor area for non-dwelling uses must be at least 139 m2 for all non-dwelling uses combined, and if the form of tenure for the residential floor area:",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(a)",
+      "text": "is secured as 100% residential rental tenure, the maximum floor space ratio is 6.80 if:",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(a)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units, or",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(a)(ii)",
+      "text": "100% of the residential floor area is developed as social housing; or",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(b)",
+      "text": "includes any tenure other than residential rental tenure:",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(b)(i)",
+      "text": "the maximum floor space ratio is 5.30 if a minimum of 20% of the residential floor area is developed as social housing, and",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(b)(ii)",
+      "text": "the maximum floor space ratio is increased to 6.60 if:",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(b)(ii)(A)",
+      "text": "the floor area for non-dwelling uses includes a child day care facility that has indoor floor area of at least 464 m2 preserved in the public domain by way of a registered agreement and operated by the City or its delegates, and",
+      "page": 10,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.3(b)(ii)(B)",
+      "text": "a minimum 20% of the residential floor area is developed as social housing.",
+      "page": 11,
+      "section_title": "R5-1 District"
+    },
+    {
+      "id": "3.1.1.4",
+      "text": "In the R5-2 district, for high-rise apartment:",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.4(a)",
+      "text": "the form of tenure for the residential floor area must be secured as 100% residential rental tenure; and",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.4(b)",
+      "text": "the maximum floor space ratio is 5.50 if:",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.4(b)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units, or",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.4(b)(ii)",
+      "text": "100% of the residential floor area is developed as social housing.",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.5",
+      "text": "In the R5-2 district, for high-rise mixed-use residential building, the floor area for non-dwelling uses must be at least 139 m2 for all non-dwelling uses combined and:",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.5(a)",
+      "text": "the form of tenure for the residential floor area must be secured as 100% residential rental tenure; and",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.5(b)",
+      "text": "the maximum floor space ratio is 5.80 if:",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.5(b)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units, or",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.5(b)(ii)",
+      "text": "100% of the residential floor area is developed as social housing.",
+      "page": 11,
+      "section_title": "R5-2 District"
+    },
+    {
+      "id": "3.1.1.6",
+      "text": "In the R5-3 district, the form of tenure must be secured as residential rental tenure for 100% of the residential floor area for developments that:",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.6(a)",
+      "text": "require the demolition, or change of use or occupancy of a rental housing unit on that site, or",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.6(b)",
+      "text": "would have required such demolition, or change of use or occupancy had a person, during the 3 years preceding the date of application for a development permit, not demolished 1 or more rental housing units or changed their use or occupancy.",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.7",
+      "text": "In the R5-3 district, for high-rise apartment, if the form of tenure for the residential floor area:",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.7(a)",
+      "text": "is secured as 100% residential rental tenure, the maximum floor space ratio is 6.50 if:",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.7(a)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units, or",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.7(a)(ii)",
+      "text": "100% of the residential floor area is developed as social housing; or",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.7(b)",
+      "text": "includes any tenure other than residential rental tenure, the maximum floor space ratio is 6.00 if a minimum of 20% of the residential floor area is developed as social housing.",
+      "page": 11,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.8",
+      "text": "In the R5-3 district, for high-rise mixed-use residential building, the floor area for non-dwelling uses must be at least 139 m2 for all non-dwelling uses combined, and if the form of tenure for the residential floor area:",
+      "page": 12,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.8(a)",
+      "text": "is secured as 100% residential rental tenure, the maximum floor space ratio is 6.80 if:",
+      "page": 12,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.8(a)(i)",
+      "text": "a minimum of 20% of the residential floor area is secured as below-market rental dwelling units, or",
+      "page": 12,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.8(a)(ii)",
+      "text": "100% of the residential floor area is developed as social housing; or",
+      "page": 12,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.8(b)",
+      "text": "includes any tenure other than residential rental tenure, the maximum floor space ratio is 6.30 if a minimum of 20% of the residential floor area is developed as social housing.",
+      "page": 12,
+      "section_title": "R5-3 District"
+    },
+    {
+      "id": "3.1.1.9",
+      "text": "In the R5-4 district:",
+      "page": 12,
+      "section_title": "R5-4 District"
+    },
+    {
+      "id": "3.1.1.9(a)",
+      "text": "the form of tenure for the residential floor area must be secured as 100% residential rental tenure; and",
+      "page": 12,
+      "section_title": "R5-4 District"
+    },
+    {
+      "id": "3.1.1.9(b)",
+      "text": "the maximum floor space ratio is: [...] if a minimum of 20% of the residential floor area is secured as below-market rental dwelling units or 100% of the residential floor area is developed as social housing.",
+      "page": 12,
+      "section_title": "R5-4 District"
+    },
+    {
+      "id": "3.1.1.9(b)(i)",
+      "text": "6.50 for high-rise apartment, and",
+      "page": 12,
+      "section_title": "R5-4 District"
+    },
+    {
+      "id": "3.1.1.9(b)(ii)",
+      "text": "6.80 for high-rise mixed-use residential building, provided that the floor area for non-dwelling uses must be at least 139 m2 for all non-dwelling uses combined,",
+      "page": 12,
+      "section_title": "R5-4 District"
+    },
+    {
+      "id": "3.1.2",
+      "text": "",
+      "page": 12,
+      "section_title": "3.1.2 Building Form and Placement"
+    },
+    {
+      "id": "3.1.2.1(a)",
+      "text": "Minimum site area for | corner site: R5-1: 1,348 m2 | R5-2: 1,348 m2 | R5-3: 1,348 m2 | R5-4: 1,348 m2",
+      "page": 12,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.1(b)",
+      "text": "Minimum site area for | all other sites: R5-1: 1,532 m2 | R5-2: 1,532 m2 | R5-3: 1,532 m2 | R5-4: 1,532 m2",
+      "page": 12,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(a)",
+      "text": "Minimum site frontage for | corner site: R5-1: 40.0 m | R5-2: 40.0 m | R5-3: 40.0 m | R5-4: 40.0 m",
+      "page": 12,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(b)",
+      "text": "Minimum site frontage for | all other sites: R5-1: 45.7 m | R5-2: 45.7 m | R5-3: 45.7 m | R5-4: 45.7 m",
+      "page": 12,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3",
+      "text": "Maximum building height: R5-1: 84.0 m | R5-2: 69.0 m | R5-3: 84.0 m | R5-4: 84.0 m",
+      "page": 12,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4",
+      "text": "Minimum front yard depth: R5-1: 3.7 m | R5-2: 3.7 m | R5-3: 3.7 m | R5-4: 3.7 m",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5",
+      "text": "Minimum side yard width: R5-1: 3.7 m | R5-2: 3.7 m | R5-3: 3.7 m | R5-4: 3.7 m",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.6",
+      "text": "Minimum rear yard depth: R5-1: 6.1 m | R5-2: 6.1 m | R5-3: 6.1 m | R5-4: 6.1 m",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.7",
+      "text": "The maximum site frontage is 60.7 m, except that the Director of Planning may increase the maximum site frontage if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 13,
+      "section_title": "Site Frontage"
+    },
+    {
+      "id": "3.1.2.8",
+      "text": "The Director of Planning may decrease the minimum site frontage to no less than 30.2 m in the R5-2, R5-3 or R5-4 districts if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 13,
+      "section_title": "Site Frontage"
+    },
+    {
+      "id": "3.1.2.9",
+      "text": "The Director of Planning may vary the: [...] if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 13,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.9(a)",
+      "text": "minimum site area in the R5-2, R5-3 or R5-4 districts if the minimum site frontage is decreased under section 3.1.2.8 above;",
+      "page": 13,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.9(b)",
+      "text": "minimum front yard depth;",
+      "page": 13,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.9(c)",
+      "text": "minimum side yard width; and",
+      "page": 13,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.9(d)",
+      "text": "minimum rear yard depth,",
+      "page": 13,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.2",
+      "text": "Uses not regulated by section 3.1 of this schedule and uses not regulated by other district schedules are subject to the following regulations.",
+      "page": 15,
+      "section_title": "3.2 Other Uses"
+    },
+    {
+      "id": "3.2.1",
+      "text": "",
+      "page": 15,
+      "section_title": "3.2.1 Density and Floor Area"
+    },
+    {
+      "id": "3.2.1.1",
+      "text": "The maximum floor space ratio is 1.45.",
+      "page": 15,
+      "section_title": "3.2.1 Density and Floor Area"
+    },
+    {
+      "id": "3.2.2",
+      "text": "All uses in these districts, except uses that are regulated by other district schedules, are subject to the following regulations.",
+      "page": 15,
+      "section_title": "3.2.2 Building Form and Placement"
+    },
+    {
+      "id": "3.2.2.1",
+      "text": "Maximum building height: 11.5 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.2",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.3",
+      "text": "Minimum side yard width: 1.2 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.4",
+      "text": "Minimum rear yard depth: 3.1 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "4.1",
+      "text": "",
+      "page": 16,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.1.1",
+      "text": "No portion of underground parking other than an access ramp is permitted to project into a front or exterior side yard, except that the Director of Planning may vary this requirement if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 16,
+      "section_title": "4.1 Yards: Projections"
+    },
+    {
+      "id": "4.1.2",
+      "text": "Entries, porches and verandahs complying with section 10.41 of this by-law may project up to 1.8 m into the required rear yard.",
+      "page": 16,
+      "section_title": "4.1 Yards: Projections"
+    }
+  ],
+  "figures": [
+    {
+      "caption": "Building placement for accessory building",
+      "page": 8
+    },
+    {
+      "caption": "Building placement for apartment and mixed-use residential building",
+      "page": 13
+    },
+    {
+      "caption": "Building height for apartment and mixed-use residential building",
+      "page": 14
+    },
+    {
+      "caption": "Building height for apartment and mixed-use residential building",
+      "page": 14
+    },
+    {
+      "caption": "Building height for apartment and mixed-use residential building",
+      "page": 15
+    }
+  ],
+  "use_groups": {
+    "3.1": "apartment_and_mixed_use_residential_building",
+    "3.2": "other_uses"
+  },
+  "group_members": {
+    "apartment_and_mixed_use_residential_building": [
+      "apartment",
+      "mixed_use_residential_building"
+    ],
+    "other_uses": []
+  },
+  "overview": [
+    {
+      "name": "High-Rise Apartment",
+      "uses": [
+        "apartment"
+      ],
+      "min_site_area_m2": null,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "High-Rise Mixed-Use Residential Building",
+      "uses": [
+        "mixed_use_residential_building"
+      ],
+      "min_site_area_m2": null,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "Low-Rise Apartment in the R5-3 or R5-4 districts",
+      "uses": [
+        "apartment_in_the_r5_3_or_r5_4_districts"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R3-3"
+    },
+    {
+      "name": "Low-Rise Apartment in combination with Townhouse in the R5-3 or R5-4 districts",
+      "uses": [
+        "apartment_in_combination_with_townhouse_in_the_r5_3_or_r5_4_districts"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R3-3"
+    },
+    {
+      "name": "Low-Rise Mixed-Use Residential Building in the R5-3 or R5-4 districts",
+      "uses": [
+        "mixed_use_residential_building_in_the_r5_3_or_r5_4_districts"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R3-3"
+    },
+    {
+      "name": "Townhouse in the R5-3 and R5-4 districts containing more than 8 dwelling units, if section 2.2.2(c)(ii) of this schedule applies",
+      "uses": [
+        "townhouse_in_the_r5_3_and_r5_4_districts"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "RM-8A"
+    },
+    {
+      "name": "Townhouse in the R5-3 and R5-4 districts containing more than 8 dwelling units, if section 2.2.2(c)(i) of this schedule applies",
+      "uses": [
+        "townhouse_in_the_r5_3_and_r5_4_districts"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "RR-1"
+    },
+    {
+      "name": "Duplex",
+      "uses": [
+        "duplex"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Duplex with Secondary Suite",
+      "uses": [
+        "duplex_with_secondary_suite"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Infill, in combination with the retention of a Character House",
+      "uses": [
+        "infill"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Laneway House",
+      "uses": [
+        "laneway_house"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Multiple Conversion Dwelling, resulting from the conversion of a Character House",
+      "uses": [
+        "multiple_conversion_dwelling"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Multiple Dwelling containing no more than 8 dwelling units",
+      "uses": [
+        "multiple_dwelling"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Principal Dwelling Unit with Lock-Off Unit",
+      "uses": [
+        "principal_dwelling_unit_with_lock_off_unit"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Single Detached House",
+      "uses": [
+        "single_detached_house"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Single Detached House with Secondary Suite",
+      "uses": [
+        "single_detached_house_with_secondary_suite"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Other uses permitted in section 2.1 of this schedule",
+      "uses": [],
+      "min_site_area_m2": null,
+      "section": "3.2",
+      "regulated_by": null
+    }
+  ],
+  "rental_only": false,
+  "schedule_districts": [
+    "R5-1",
+    "R5-2",
+    "R5-3",
+    "R5-4"
+  ],
+  "parser_version": "0.1.0.dev0"
+}

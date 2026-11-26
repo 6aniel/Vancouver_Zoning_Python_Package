@@ -1,0 +1,1313 @@
+{
+  "district": "RM-6",
+  "name": null,
+  "intent": "The intent of this schedule is to permit apartments and compatible retail, cultural, recreational, service and institutional uses. Development is intended to recognize the formal character of Georgia Street and be compatible with the West End residential character along Alberni Street.",
+  "source": {
+    "filename": "rm-6.pdf",
+    "sha256": "8faf7e8079dd298cd280a75155be1c1fd33ce3869519a1dafef7ab6c327552a1",
+    "title": "Zoning and Development By-law: RM-6 District Schedule",
+    "version_label": "October 2026",
+    "pages": 10
+  },
+  "uses": [
+    {
+      "use": "urban_farm_class_a",
+      "name": "Urban Farm - Class A",
+      "category": "Agricultural Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "bowling_alley",
+      "name": "Bowling Alley",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.2"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "club",
+      "name": "Club",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.3"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_centre_or_neighbourhood_house",
+      "name": "Community Centre or Neighbourhood House",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.3"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "fitness_centre",
+      "name": "Fitness Centre",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.3"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "library",
+      "name": "Library, in combination with Community Centre",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "museum_or_archives",
+      "name": "Museum or Archives",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "park_or_playground",
+      "name": "Park or Playground",
+      "category": "Cultural and Recreational Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "theatre",
+      "name": "Theatre",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "mixed_use_residential_building",
+      "name": "Mixed-Use Residential Building",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.6",
+        "2.2.7"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "multiple_dwelling",
+      "name": "Multiple Dwelling",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.7"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "seniors_supportive_or_independent_living_housing",
+      "name": "Seniors Supportive or Independent Living Housing",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "single_detached_house_with_secondary_suite",
+      "name": "Single Detached House with Secondary Suite",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "ambulance_station",
+      "name": "Ambulance Station",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.8"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "child_day_care_facility",
+      "name": "Child Day Care Facility",
+      "category": "Institutional Uses",
+      "approval": "outright",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "church",
+      "name": "Church",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.9"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_care_or_assisted_living_facility_class_b",
+      "name": "Community Care or Assisted Living Facility - Class B",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.10"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "group_residence",
+      "name": "Group Residence",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.10"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "hospital",
+      "name": "Hospital",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.11"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_authority_use",
+      "name": "Public Authority Use, essential in this district",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.8"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "social_service_centre",
+      "name": "Social Service Centre",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.12"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "financial_institution",
+      "name": "Financial Institution",
+      "category": "Office Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.13"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "general_office",
+      "name": "General Office",
+      "category": "Office Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.14"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "health_care_office",
+      "name": "Health Care Office",
+      "category": "Office Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.14"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "health_enhancement_centre",
+      "name": "Health Enhancement Centre",
+      "category": "Office Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.14"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "parking_area",
+      "name": "Parking Area",
+      "category": "Parking Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.15"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "farmers_market",
+      "name": "Farmers’ Market",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.16"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "gasoline_station_split_island_existing",
+      "name": "Gasoline Station - Split Island, existing as of September 26, 1989",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "grocery_or_drug_store",
+      "name": "Grocery or Drug Store",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.17"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "neighbourhood_grocery_store",
+      "name": "Neighbourhood Grocery Store",
+      "category": "Retail Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_bike_share",
+      "name": "Public Bike Share",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "retail_store",
+      "name": "Retail Store",
+      "category": "Retail Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.18"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "retail_store",
+      "name": "Retail Store, not permitted as an outright approval use",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.19"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "shared_e_scooter_system",
+      "name": "Shared E-Scooter System",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "small_scale_pharmacy",
+      "name": "Small-Scale Pharmacy",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "animal_clinic_or_shelter",
+      "name": "Animal Clinic or Shelter",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.20"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "animal_services",
+      "name": "Animal Services",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.20"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "barber_shop_or_beauty_salon",
+      "name": "Barber Shop or Beauty Salon",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.21"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "beauty_and_wellness_centre",
+      "name": "Beauty and Wellness Centre",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "bed_and_breakfast_accommodation",
+      "name": "Bed and Breakfast Accommodation",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.10"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "hotel",
+      "name": "Hotel",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.22"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "laundromat_or_dry_cleaning_establishment",
+      "name": "Laundromat or Dry Cleaning Establishment",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.23"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "photofinishing_or_photography_studio",
+      "name": "Photofinishing or Photography Studio",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.24"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "print_shop",
+      "name": "Print Shop",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.21"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "restaurant_class_1",
+      "name": "Restaurant - Class 1",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.14"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_arts_or_self_improvement",
+      "name": "School - Arts or Self-Improvement",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.25"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_business",
+      "name": "School - Business",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.26"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_vocational_or_trade",
+      "name": "School - Vocational or Trade",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.25"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "short_term_rental_accommodation",
+      "name": "Short Term Rental Accommodation",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "wedding_chapel",
+      "name": "Wedding Chapel",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_utility",
+      "name": "Public Utility",
+      "category": "Utility and Communication Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1",
+        "2.2.12"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses_customarily_ancillary_to_any_outright_approval_use_listed_in_this_section_2_1",
+      "name": "Accessory Uses customarily ancillary to any outright approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses_customarily_ancillary_to_any_conditional_approval_use_listed_in_this_section_2_1",
+      "name": "Accessory Uses customarily ancillary to any conditional approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    }
+  ],
+  "regulations": [
+    {
+      "district": "RM-6",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 12.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1",
+      "page": 7,
+      "source_text": "Maximum building height: 12.2 m"
+    },
+    {
+      "district": "RM-6",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 12.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(a)",
+      "page": 7,
+      "source_text": "Minimum front yard depth for buildings with a height | of 12.2 m or less: 12.2 m"
+    },
+    {
+      "district": "RM-6",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.0,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "greater_than_12_2_m",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2(b)",
+      "page": 7,
+      "source_text": "Minimum front yard depth for buildings with a height | greater than 12.2 m: 3.0 m"
+    },
+    {
+      "district": "RM-6",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 2.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3",
+      "page": 7,
+      "source_text": "Minimum interior side yard width: 2.1 m"
+    },
+    {
+      "district": "RM-6",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.6",
+      "page": 8,
+      "source_text": "Minimum rear yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-6",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.1.1",
+      "page": 7,
+      "source_text": "The maximum floor space ratio is 1.00, except that the Director of Planning or Development Permit Board may increase the permitted floor space ratio to a maximum of 2.50 if the Director of Planning or Development Permit Board considers: the building height, bulk, location and overall design of the development and its impact on nearby sites, streets and public open spaces; the submission of any advisory group, property owner or tenant; and the intent of this schedule and all applicable Council policies and guidelines."
+    },
+    {
+      "district": "RM-6",
+      "group": "all_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.5,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": true,
+      "requires": {},
+      "clause": "3.1.1.1",
+      "page": 7,
+      "source_text": "The maximum floor space ratio is 1.00, except that the Director of Planning or Development Permit Board may increase the permitted floor space ratio to a maximum of 2.50 if the Director of Planning or Development Permit Board considers: the building height, bulk, location and overall design of the development and its impact on nearby sites, streets and public open spaces; the submission of any advisory group, property owner or tenant; and the intent of this schedule and all applicable Council policies and guidelines."
+    }
+  ],
+  "clauses": [
+    {
+      "id": "1.1",
+      "text": "The intent of this schedule is to permit apartments and compatible retail, cultural, recreational, service and institutional uses. Development is intended to recognize the formal character of Georgia Street and be compatible with the West End residential character along Alberni Street.",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.2",
+      "text": "The table below provides an overview of the outright and conditional approval uses in the RM-6 district, categorized by the minimum site area required, where applicable. Applicable density, form and placement regulations in section 3 of this schedule are cross-referenced in the third column.",
+      "page": 1,
+      "section_title": "1.2 Overview"
+    },
+    {
+      "id": "2.1",
+      "text": "All outright and conditional approval uses are subject to all other provisions of this by-law, including Section 2, Section 10 and Section 11, and compliance with the regulations of this schedule including section 2.2. [...] The uses identified in the table below as outright approval uses are permitted in this district and will be issued a permit. [...] The uses identified in the table below as conditional approval uses may be approved in this district by the Director of Planning or Development Permit Board, with or without conditions, if the Director of Planning or Development Permit Board considers: [...] Uses are listed under their general land use category. Applicable use-specific regulations in section 2.2 of this schedule are cross-referenced in the third column. Cross-references to applicable use-specific regulations are provided for information purposes only and do not form part of this by-law.",
+      "page": 1,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(a)",
+      "text": "the intent of this schedule and all applicable Council policies and guidelines; and",
+      "page": 1,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(b)",
+      "text": "the submission of any advisory group, property owner or tenant.",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.2",
+      "text": "",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1",
+      "text": "All commercial uses listed in section 2.1 of this schedule must be carried on wholly within a completely enclosed building, except for the following:",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(a)",
+      "text": "child day care facility;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(b)",
+      "text": "display of flowers, plants, fruits and vegetables;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(c)",
+      "text": "farmers' market;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(d)",
+      "text": "gasoline station - split island;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(e)",
+      "text": "hydrotherapy, thermal therapy, or both;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(f)",
+      "text": "outdoor eating area in combination with a club, grocery or drug store, neighbourhood grocery store or retail store, subject to any conditions that the Director of Planning considers necessary, having regard to the area and location of the eating area with respect to adjoining sites, the hours of operation and the intent of this schedule;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(g)",
+      "text": "park or playground;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(h)",
+      "text": "parking and loading facilities;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(i)",
+      "text": "public bike share;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(j)",
+      "text": "restaurant;",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(k)",
+      "text": "shared e-scooter system; and",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1(l)",
+      "text": "urban farm - class A.",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2",
+      "text": "Bowling alley may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, traffic, noise and hours of operation.",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3",
+      "text": "Club, community centre or neighbourhood house, and fitness centre may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with surrounding uses, parking, noise, hours of operation, pedestrian amenity and size of facility.",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4",
+      "text": "Museum or archives may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, parking, proximity to major streets and size of facility.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5",
+      "text": "Theatre may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, traffic and hours of operation.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6",
+      "text": "Any of the non-dwelling uses listed in section 2.1 of this schedule are permitted in a mixed-use residential building.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7",
+      "text": "Development on any site consisting of 3 or more dwelling units that: [...] is subject to the Rental Housing Stock Official Development Plan.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7(a)",
+      "text": "requires the demolition, or change of use or occupancy of a rental housing unit on that site; or",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7(b)",
+      "text": "would have required such demolition, or change of use or occupancy had a person, during the 3 years preceding the date of application for a development permit, not demolished 1 or more rental housing units or changed their use or occupancy,",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.8",
+      "text": "Ambulance station and public authority use may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, proximity to major streets and vehicular ingress and egress.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.9",
+      "text": "Church may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, parking and size of facility.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.10",
+      "text": "Community care or assisted living facility - class B, group residence, and bed and breakfast accommodation may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.11",
+      "text": "Hospital may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, vehicular ingress and egress, and category of facility.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.12",
+      "text": "Social service centre and public utility may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites and category of facility.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13",
+      "text": "Financial institution may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to parking and size of facility.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14",
+      "text": "General office, health care office, health enhancement centre, and restaurant - class 1 may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, parking, traffic, noise and hours of operation.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.15",
+      "text": "Parking area may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, pedestrian amenity and vehicle ingress and egress.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.16",
+      "text": "Farmers’ market may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, parking, traffic, noise, hours of operation, size of facility and pedestrian amenity.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.17",
+      "text": "Grocery or drug store may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to parking, size of facility and pedestrian amenity.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.18",
+      "text": "Retail store is permitted as an outright approval use if it is on the first storey of a building and if the floor space ratio of all retail uses does not exceed 0.50.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.19",
+      "text": "Retail store may be permitted as a conditional approval use if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to parking, size of facility and pedestrian amenity.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.20",
+      "text": "Animal clinic or shelter or animal services may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, noise and hours of operation.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.21",
+      "text": "Barber shop or beauty salon and print shop may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with surrounding uses, hours of operation and parking.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.22",
+      "text": "Hotel may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with nearby sites, suitability of site, traffic, access, parking and size of facility.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.23",
+      "text": "Laundromat or dry cleaning establishment may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to compatibility with surrounding uses, hours of operation, parking and noise.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.24",
+      "text": "Photofinishing or photography studio may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to parking.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.25",
+      "text": "School - arts or self-improvement and school - vocational or trade may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to parking, size of facility, noise and hours of operation.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.26",
+      "text": "School - business may be permitted if the Director of Planning or Development Permit Board considers the appropriateness of the use with respect to parking, size and category of facility, and hours of operation. [...] This section contains density, form and placement regulations organized by use.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "3.1",
+      "text": "All uses in this district are subject to the following regulations.",
+      "page": 7,
+      "section_title": "3.1 All Uses"
+    },
+    {
+      "id": "3.1.1",
+      "text": "",
+      "page": 7,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1",
+      "text": "The maximum floor space ratio is 1.00, except that the Director of Planning or Development Permit Board may increase the permitted floor space ratio to a maximum of 2.50 if the Director of Planning or Development Permit Board considers:",
+      "page": 7,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1(a)",
+      "text": "the building height, bulk, location and overall design of the development and its impact on nearby sites, streets and public open spaces;",
+      "page": 7,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1(b)",
+      "text": "the submission of any advisory group, property owner or tenant; and",
+      "page": 7,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1(c)",
+      "text": "the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 7,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.2",
+      "text": "",
+      "page": 7,
+      "section_title": "3.1.2 Building Form and Placement"
+    },
+    {
+      "id": "3.1.2.1",
+      "text": "Maximum building height: 12.2 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(a)",
+      "text": "Minimum front yard depth for buildings with a height | of 12.2 m or less: 12.2 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2(b)",
+      "text": "Minimum front yard depth for buildings with a height | greater than 12.2 m: 3.0 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3",
+      "text": "Minimum interior side yard width: 2.1 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(a)",
+      "text": "Minimum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the west side of Cardero Street, Bidwell Street or Gilford Street: 7.6 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(b)",
+      "text": "Minimum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the east side of Bidwell Street or Gilford Street: 7.6 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(c)",
+      "text": "Minimum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the east side of Denman Street: 12.2 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(d)",
+      "text": "Minimum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the west side of Denman Street: 12.2 m",
+      "page": 7,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(e)",
+      "text": "Minimum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the east side of Chilco Street: not required",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(a)",
+      "text": "Maximum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the west side of Cardero Street, Bidwell Street or Gilford Street: 12.2 m",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(b)",
+      "text": "Maximum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the east side of Bidwell Street or Gilford Street: 18.3 m",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(c)",
+      "text": "Maximum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the east side of Denman Street: 24.4 m",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(d)",
+      "text": "Maximum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the west side of Denman Street: 30.5 m",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5(e)",
+      "text": "Maximum depth of setback from exterior side property line for portions of buildings with a height greater than 12.2 m on | the east side of Chilco Street: no maximum",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.6",
+      "text": "Minimum rear yard depth: 3.7 m",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.7",
+      "text": "For the purposes of this section 3.1:",
+      "page": 8,
+      "section_title": "Yards"
+    },
+    {
+      "id": "3.1.2.7(a)",
+      "text": "front yard means that portion of a site that abuts Georgia Street;",
+      "page": 8,
+      "section_title": "Yards"
+    },
+    {
+      "id": "3.1.2.7(b)",
+      "text": "interior side yard means those portions of a site that abut an interior property line; and",
+      "page": 8,
+      "section_title": "Yards"
+    },
+    {
+      "id": "3.1.2.7(c)",
+      "text": "rear yard means that portion of a site that abuts Alberni Street.",
+      "page": 8,
+      "section_title": "Yards"
+    },
+    {
+      "id": "3.1.2.8",
+      "text": "If the Director of Planning or Development Permit Board considers the intent of this schedule and all applicable Council policies and guidelines, the Director of Planning or Development Permit Board may vary: [...] All uses in this district are subject to the following regulations.",
+      "page": 8,
+      "section_title": "Discretion to Vary Regulations"
+    },
+    {
+      "id": "3.1.2.8(a)",
+      "text": "the maximum building height to a height not exceeding 64.0 m if the liveability and environmental quality of the surrounding neighbourhood is not unduly harmed, and if the Director of Planning or Development Permit Board considers the",
+      "page": 8,
+      "section_title": "Discretion to Vary Regulations"
+    },
+    {
+      "id": "3.1.2.8(b)",
+      "text": "the minimum front yard depth; and",
+      "page": 9,
+      "section_title": "Discretion to Vary Regulations"
+    },
+    {
+      "id": "3.1.2.8(c)",
+      "text": "the minimum rear yard depth.",
+      "page": 9,
+      "section_title": "Discretion to Vary Regulations"
+    },
+    {
+      "id": "4.1",
+      "text": "",
+      "page": 9,
+      "section_title": "4.1 Yards: Projections and Measurement"
+    },
+    {
+      "id": "4.1.1",
+      "text": "Despite the yard projection regulations in Section 10 of this by-law, the Director of Planning or Development Permit Board may permit entries, porches and verandahs, entrance lobbies, and canopies to project up to 1.8 m into the required rear yard and porte cocheres to project up to the rear property line, if none of the foregoing exceed a width of 6.1 m, and if the Director of Planning or Development Permit Board considers all applicable Council policies and guidelines.",
+      "page": 9,
+      "section_title": "4.1 Yards: Projections and Measurement"
+    },
+    {
+      "id": "4.2",
+      "text": "",
+      "page": 9,
+      "section_title": "4.2 External Design"
+    },
+    {
+      "id": "4.2.1",
+      "text": "A covered storage area must be provided for garbage and recycling containers and must be screened from view from adjacent sidewalks and dwelling units.",
+      "page": 9,
+      "section_title": "4.2 External Design"
+    },
+    {
+      "id": "4.2.2",
+      "text": "Mechanical equipment, including duct work, must be enclosed and set back so as not to be visible from street level or may be architecturally treated by other means satisfactory to the Director of Planning.",
+      "page": 9,
+      "section_title": "4.2 External Design"
+    },
+    {
+      "id": "4.2.3",
+      "text": "The first and second storeys of any development fronting Denman Street must not be set back from the property line and must provide any one or a combination of: display windows; individualized tenancy unit design; building articulation; pedestrian entrance definition via a recess or projecting canopy; or any other architectural features which facilitate pedestrian interest to the satisfaction of the Director of Planning.",
+      "page": 9,
+      "section_title": "4.2 External Design"
+    },
+    {
+      "id": "5.1",
+      "text": "Where a need for any public facility of a social, cultural or recreational nature has been demonstrated to the satisfaction of the Development Permit Board, the Board may relax for any 1 building, which includes 1 or more of such facilities, the maximum floor space ratio and may require that any such facility be preserved in the public domain by way of a registered agreement and operated by the City or its delegates.",
+      "page": 9,
+      "section_title": "5 RELAXATIONS"
+    },
+    {
+      "id": "5.2",
+      "text": "In determining the increase in floor area that may be permitted under section 5.1 above, the Development Permit Board must consider:",
+      "page": 9,
+      "section_title": "5 RELAXATIONS"
+    },
+    {
+      "id": "5.2(a)",
+      "text": "the construction cost of the facility;",
+      "page": 9,
+      "section_title": "5 RELAXATIONS"
+    },
+    {
+      "id": "5.2(b)",
+      "text": "any costs to the developer of continuing maintenance required for the facility;",
+      "page": 9,
+      "section_title": "5 RELAXATIONS"
+    },
+    {
+      "id": "5.2(c)",
+      "text": "the rental value of the increased floor area;",
+      "page": 10,
+      "section_title": "5 RELAXATIONS"
+    },
+    {
+      "id": "5.2(d)",
+      "text": "the value of any authorized relaxation of other restrictions;",
+      "page": 10,
+      "section_title": "5 RELAXATIONS"
+    },
+    {
+      "id": "5.2(e)",
+      "text": "the opinion of City Council; and",
+      "page": 10,
+      "section_title": "5 RELAXATIONS"
+    },
+    {
+      "id": "5.2(f)",
+      "text": "all applicable Council policies and guidelines.",
+      "page": 10,
+      "section_title": "5 RELAXATIONS"
+    }
+  ],
+  "figures": [
+    {
+      "caption": "Building placement for principal building",
+      "page": 8
+    }
+  ],
+  "use_groups": {
+    "3.1": "all_uses"
+  },
+  "group_members": {
+    "all_uses": [
+      "*"
+    ]
+  },
+  "overview": [
+    {
+      "name": "All uses listed in section 2.1 of this schedule",
+      "uses": [],
+      "min_site_area_m2": null,
+      "section": "3.1",
+      "regulated_by": null
+    }
+  ],
+  "rental_only": false,
+  "schedule_districts": [
+    "RM-6"
+  ],
+  "parser_version": "0.1.0.dev0"
+}

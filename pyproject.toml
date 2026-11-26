@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vanzoning"
+version = "0.1.0.dev0"
+description = "Parse, query and store City of Vancouver zoning bylaw rules for urban analytics and housing-supply optimisation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+  "pdfplumber>=0.11",
+  "pydantic>=2.5",
+  "numpy>=1.24",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+opt = ["scipy>=1.9", "pygad>=3.3"]  # MILP (HiGHS) and genetic-algorithm examples
+geo = ["shapely>=2.0", "pyproj>=3.6"]  # parcel frontage/depth from polygons
+parquet = ["pyarrow>=14"]
+torch = ["torch>=2.0"]
+llm = ["anthropic>=0.40"]     # optional LLM cross-check of hard clauses (planned)
+dev = ["pytest>=8", "ruff>=0.5", "scipy>=1.9", "pygad>=3.3"]
+
+[project.scripts]
+vanzoning = "vanzoning.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vanzoning"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110

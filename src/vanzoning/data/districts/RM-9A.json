@@ -1,0 +1,3429 @@
+{
+  "district": "RM-9A",
+  "name": null,
+  "intent": "The intent of this schedule is to permit 4-storey apartments to provide a transition in residential neighbourhoods between higher building forms and ground-oriented building forms. The emphasis is on creating of a variety of dwelling unit sizes, including those appropriate for families with children. Townhouses are only permitted in combination with an apartment building and on exceptionally deep sites. [...] Without limitation, applicable Council policies and guidelines for consideration include the RM-9, RM-9A and RM-9B Guidelines.",
+  "source": {
+    "filename": "rm-9a.pdf",
+    "sha256": "b067b5ec26703980564c7f2ac13cbf81f0ba99d9cd8180ee7c6d216d084d9d0b",
+    "title": "Zoning and Development By-law: RM-9A District Schedule",
+    "version_label": "October 2026",
+    "pages": 24
+  },
+  "uses": [
+    {
+      "use": "urban_farm_class_a",
+      "name": "Urban Farm - Class A",
+      "category": "Agricultural Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "club",
+      "name": "Club",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_centre_or_neighbourhood_house",
+      "name": "Community Centre or Neighbourhood House",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "library",
+      "name": "Library, in combination with Community Centre",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "park_or_playground",
+      "name": "Park or Playground",
+      "category": "Cultural and Recreational Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "apartment",
+      "name": "Apartment",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.1"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "apartment",
+      "name": "Apartment, in combination with Townhouse",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.2"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "duplex",
+      "name": "Duplex, in combination with another principal building",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "duplex_with_secondary_suite",
+      "name": "Duplex with Secondary Suite, in combination with another principal building",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.3"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "infill_single_detached_house",
+      "name": "Infill Single Detached House, in combination with the retention of a building existing on the site prior to January 1, 1940",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "laneway_house",
+      "name": "Laneway House",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.4"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "mixed_use_residential_building",
+      "name": "Mixed-Use Residential Building",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.5"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "multiple_conversion_dwelling",
+      "name": "Multiple Conversion Dwelling, containing 2 dwelling units",
+      "category": "Dwelling Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.6"
+      ],
+      "min_units": 2,
+      "max_units": 2
+    },
+    {
+      "use": "multiple_conversion_dwelling_existing",
+      "name": "Multiple Conversion Dwelling, not permitted as an outright approval use and resulting from the conversion of a building existing as of May 27, 2014",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.7"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "principal_dwelling_unit_with_lock_off_unit",
+      "name": "Principal Dwelling Unit with Lock-Off Unit",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.8"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "seniors_supportive_or_independent_living_housing",
+      "name": "Seniors Supportive or Independent Living Housing",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "single_detached_house",
+      "name": "Single Detached House",
+      "category": "Dwelling Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.9"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "single_detached_house_with_secondary_suite",
+      "name": "Single Detached House with Secondary Suite",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.9"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "single_detached_house",
+      "name": "Single Detached House, in combination with another principal building",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "single_detached_house_with_secondary_suite",
+      "name": "Single Detached House with Secondary Suite, in combination with another principal building",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.10"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "triplex",
+      "name": "Triplex",
+      "category": "Dwelling Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "ambulance_station",
+      "name": "Ambulance Station",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "child_day_care_facility",
+      "name": "Child Day Care Facility",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "child_day_care_facility_conversion_dwelling",
+      "name": "Child Day Care Facility Conversion Dwelling",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.16"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "church",
+      "name": "Church",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_care_or_assisted_living_facility_class_a",
+      "name": "Community Care or Assisted Living Facility - Class A",
+      "category": "Institutional Uses",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.11"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "community_care_or_assisted_living_facility_class_b",
+      "name": "Community Care or Assisted Living Facility - Class B",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "group_residence",
+      "name": "Group Residence",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "hospital",
+      "name": "Hospital",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_authority_use",
+      "name": "Public Authority Use, essential in these districts",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "school_elementary_or_secondary",
+      "name": "School - Elementary or Secondary",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "social_service_centre",
+      "name": "Social Service Centre",
+      "category": "Institutional Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "farmers_market",
+      "name": "Farmers’ Market",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.12"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "neighbourhood_grocery_store",
+      "name": "Neighbourhood Grocery Store",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_bike_share",
+      "name": "Public Bike Share",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "shared_e_scooter_system",
+      "name": "Shared E-Scooter System",
+      "category": "Retail Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "bed_and_breakfast_accommodation",
+      "name": "Bed and Breakfast Accommodation",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "short_term_rental_accommodation",
+      "name": "Short Term Rental Accommodation",
+      "category": "Service Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "public_utility",
+      "name": "Public Utility",
+      "category": "Utility and Communication Uses",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_buildings",
+      "name": "Accessory Buildings, customarily ancillary to any use listed in this section 2.1, other than Multiple Dwelling",
+      "category": "uncategorized",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.13"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_buildings",
+      "name": "Accessory Buildings, customarily ancillary to any use listed in this section 2.1, other than Multiple Dwelling, and not permitted as an outright approval use",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_buildings",
+      "name": "Accessory Buildings, customarily ancillary to Multiple Dwelling",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [
+        "2.2.14"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses",
+      "name": "Accessory Uses, customarily ancillary to any outright approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "outright",
+      "use_specific_regulations": [
+        "2.2.15"
+      ],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "accessory_uses",
+      "name": "Accessory Uses, customarily ancillary to any conditional approval use listed in this section 2.1",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    },
+    {
+      "use": "deposition_or_extraction_of_material",
+      "name": "Deposition or extraction of material, which alters the configuration of the land",
+      "category": "uncategorized",
+      "approval": "conditional",
+      "use_specific_regulations": [],
+      "min_units": null,
+      "max_units": null
+    }
+  ],
+  "regulations": [
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 445.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.1",
+      "page": 8,
+      "source_text": "Minimum site area: 445 m2"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "site_frontage",
+      "bound": "min",
+      "value": 15.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.2",
+      "page": 8,
+      "source_text": "Minimum site frontage: 15.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "site_frontage",
+      "bound": "max",
+      "value": 50.0,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.3",
+      "page": 8,
+      "source_text": "Maximum site frontage: 50.0 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "apartment",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 13.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4(a)",
+      "page": 9,
+      "source_text": "Maximum building height for | apartment: 13.7 m and 4 storeys"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "apartment",
+      "metric": "storeys",
+      "bound": "max",
+      "value": 4.0,
+      "unit": "storeys",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4(a)",
+      "page": 9,
+      "source_text": "Maximum building height for | apartment: 13.7 m and 4 storeys"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "townhouse",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4(b)",
+      "page": 9,
+      "source_text": "Maximum building height for | townhouse: 10.7 m and 3 storeys"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "townhouse",
+      "metric": "storeys",
+      "bound": "max",
+      "value": 3.0,
+      "unit": "storeys",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.4(b)",
+      "page": 9,
+      "source_text": "Maximum building height for | townhouse: 10.7 m and 3 storeys"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.5",
+      "page": 9,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 2.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.6",
+      "page": 9,
+      "source_text": "Minimum side yard width: 2.1 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "apartment",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.7(a)",
+      "page": 9,
+      "source_text": "Minimum rear yard depth for | apartment: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "apartment",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "apartment_in_combination_with_townhouse",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.7(b)",
+      "page": 9,
+      "source_text": "Minimum rear yard depth for | apartment in combination with townhouse: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "townhouse",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": "apartment_in_combination_with_townhouse",
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.7(b)",
+      "page": 9,
+      "source_text": "Minimum rear yard depth for | apartment in combination with townhouse: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.8",
+      "page": 9,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.9",
+      "page": 9,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "building_separation",
+      "bound": "min",
+      "value": 7.3,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.2.10",
+      "page": 9,
+      "source_text": "Minimum separation between buildings located on a site frontage and rear buildings: 7.3 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 303.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.1",
+      "page": 11,
+      "source_text": "Minimum site area: 303 m2"
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.2",
+      "page": 11,
+      "source_text": "Maximum building height: 10.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.3",
+      "page": 11,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.4",
+      "page": 11,
+      "source_text": "Minimum side yard width: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 7.6,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.5",
+      "page": 11,
+      "source_text": "Minimum rear yard depth: 7.6 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.6",
+      "page": 11,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.2.7",
+      "page": 11,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 334.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.2.1",
+      "page": 13,
+      "source_text": "Minimum site area: 334 m2"
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.2.2",
+      "page": 13,
+      "source_text": "Maximum building height: 10.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.2.3",
+      "page": 13,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 2.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.2.4",
+      "page": 13,
+      "source_text": "Minimum side yard width: 2.1 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.2.5",
+      "page": 13,
+      "source_text": "Minimum rear yard depth: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.2.6",
+      "page": 13,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.2.7",
+      "page": 13,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 334.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.2.1",
+      "page": 15,
+      "source_text": "Minimum site area: 334 m2"
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.2.2",
+      "page": 15,
+      "source_text": "Maximum building height: 10.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.2.3",
+      "page": 15,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 2.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.2.4",
+      "page": 15,
+      "source_text": "Minimum side yard width: 2.1 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.2.5",
+      "page": 15,
+      "source_text": "Minimum rear yard depth: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.2.6",
+      "page": 15,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.2.7",
+      "page": 15,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 303.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.5.2.1",
+      "page": 17,
+      "source_text": "Minimum site area: 303 m2"
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.5.2.2",
+      "page": 17,
+      "source_text": "Maximum building height: 10.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.5.2.3",
+      "page": 17,
+      "source_text": "Minimum side yard width: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.5.2.4",
+      "page": 17,
+      "source_text": "Minimum rear yard depth: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.5.2.5",
+      "page": 17,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.5.2.6",
+      "page": 17,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 303.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.1",
+      "page": 18,
+      "source_text": "Minimum site area: 303 m2"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.2",
+      "page": 18,
+      "source_text": "Maximum building height: 10.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.3",
+      "page": 18,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 2.1,
+      "unit": "m",
+      "min_units": 2,
+      "max_units": 2,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.4(a)",
+      "page": 18,
+      "source_text": "Minimum side yard width for multiple conversion dwelling containing | 2 dwelling units: 2.1 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 1.2,
+      "unit": "m",
+      "min_units": 3,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.4(b)",
+      "page": 18,
+      "source_text": "Minimum side yard width for multiple conversion dwelling containing | more than 2 dwelling units: 1.2 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 7.6,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.5",
+      "page": 18,
+      "source_text": "Minimum rear yard depth: 7.6 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.6",
+      "page": 18,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.2.7",
+      "page": 18,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "site_area",
+      "bound": "min",
+      "value": 445.0,
+      "unit": "m2",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.2.1",
+      "page": 20,
+      "source_text": "Minimum site area: 445 m2"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.2.2",
+      "page": 20,
+      "source_text": "Maximum building height: 10.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.2.3",
+      "page": 20,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 2.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.2.4",
+      "page": 20,
+      "source_text": "Minimum side yard width: 2.1 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 7.6,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.2.5",
+      "page": 20,
+      "source_text": "Minimum rear yard depth: 7.6 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.2.6",
+      "page": 20,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.2.7",
+      "page": 20,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "building_height",
+      "bound": "max",
+      "value": 10.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.8.2.1",
+      "page": 22,
+      "source_text": "Maximum building height: 10.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "front_yard",
+      "bound": "min",
+      "value": 3.7,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.8.2.2",
+      "page": 22,
+      "source_text": "Minimum front yard depth: 3.7 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "side_yard",
+      "bound": "min",
+      "value": 2.1,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.8.2.3",
+      "page": 22,
+      "source_text": "Minimum side yard width: 2.1 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "rear_yard",
+      "bound": "min",
+      "value": 7.6,
+      "unit": "m",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.8.2.4",
+      "page": 22,
+      "source_text": "Minimum rear yard depth: 7.6 m"
+    },
+    {
+      "district": "RM-9A",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "site_coverage",
+      "bound": "max",
+      "value": 0.55,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.8.2.5",
+      "page": 22,
+      "source_text": "Maximum site coverage for all buildings: 55% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "impermeable_area",
+      "bound": "max",
+      "value": 0.75,
+      "unit": "fraction_of_site",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.8.2.6",
+      "page": 22,
+      "source_text": "Maximum area of impermeable materials: 75% of the site area"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.1.1.1",
+      "page": 8,
+      "source_text": "The maximum floor space ratio is 0.70, except that the maximum floor space ratio is: 1.20 on sites with a site frontage less than 15.2 m and where the development site consists of locked in lots; 1.50 on sites with a minimum site frontage of 15.2 m; 1.75 on sites with a minimum site frontage of 15.2 m and located on a corner site; and 2.00 on sites with a minimum site frontage of 27.4 m."
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.2,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_lt": 15.2,
+        "locked_in_lots": true
+      },
+      "clause": "3.1.1.1(a)",
+      "page": 8,
+      "source_text": "1.20 on sites with a site frontage less than 15.2 m and where the development site consists of locked in lots;"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.5,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 15.2
+      },
+      "clause": "3.1.1.1(b)",
+      "page": 8,
+      "source_text": "1.50 on sites with a minimum site frontage of 15.2 m;"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.75,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 15.2,
+        "corner_site": true
+      },
+      "clause": "3.1.1.1(c)",
+      "page": 8,
+      "source_text": "1.75 on sites with a minimum site frontage of 15.2 m and located on a corner site; and"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 27.4
+      },
+      "clause": "3.1.1.1(d)",
+      "page": 8,
+      "source_text": "2.00 on sites with a minimum site frontage of 27.4 m."
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "units_per_hectare",
+      "bound": "max",
+      "value": 100.0,
+      "unit": "units_per_ha",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "fsr_lte": 0.9
+      },
+      "clause": "3.1.1.2(a)",
+      "page": 8,
+      "source_text": "100 units per hectare of site area where the floor space ratio does not exceed 0.90;"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "units_per_hectare",
+      "bound": "max",
+      "value": 132.0,
+      "unit": "units_per_ha",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "fsr_gt": 0.9,
+        "fsr_lte": 1.2
+      },
+      "clause": "3.1.1.2(b)",
+      "page": 8,
+      "source_text": "132 units per hectare of site area where the floor space ratio exceeds 0.90 and does not exceed 1.20; or"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "units_per_hectare",
+      "bound": "max",
+      "value": 140.0,
+      "unit": "units_per_ha",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "fsr_gt": 1.2
+      },
+      "clause": "3.1.1.2(c)",
+      "page": 8,
+      "source_text": "140 units per hectare of site area where the floor space ratio exceeds 1.20."
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "units_per_hectare",
+      "bound": "max",
+      "value": 180.0,
+      "unit": "units_per_ha",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": true,
+      "requires": {
+        "fsr_gt": 1.2,
+        "fsr_lte": 1.75
+      },
+      "clause": "3.1.1.3(a)",
+      "page": 8,
+      "source_text": "180 units per hectare of site area where the floor space ratio exceeds 1.20 and does not exceed 1.75; or"
+    },
+    {
+      "district": "RM-9A",
+      "group": "apartment_and_apartment_in_combination_with_townhouse",
+      "use": "*",
+      "metric": "units_per_hectare",
+      "bound": "max",
+      "value": 240.0,
+      "unit": "units_per_ha",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": true,
+      "requires": {
+        "fsr_gt": 1.75
+      },
+      "clause": "3.1.1.3(b)",
+      "page": 8,
+      "source_text": "240 units per hectare of site area where the floor space ratio exceeds 1.75."
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.1.1",
+      "page": 11,
+      "source_text": "The maximum floor space ratio is 0.70, except that on sites with a site frontage less than 12.8 m, the maximum floor space ratio is 0.90."
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.9,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_lt": 12.8
+      },
+      "clause": "3.2.1.1",
+      "page": 11,
+      "source_text": "The maximum floor space ratio is 0.70, except that on sites with a site frontage less than 12.8 m, the maximum floor space ratio is 0.90."
+    },
+    {
+      "district": "RM-9A",
+      "group": "triplex",
+      "use": "*",
+      "metric": "units_per_hectare",
+      "bound": "max",
+      "value": 100.0,
+      "unit": "units_per_ha",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.2.1.2",
+      "page": 11,
+      "source_text": "The total number of dwelling units on a site, excluding lock-off units, must not exceed 100 units per hectare of site area."
+    },
+    {
+      "district": "RM-9A",
+      "group": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.3.1.1",
+      "page": 13,
+      "source_text": "The maximum floor space ratio is 0.70."
+    },
+    {
+      "district": "RM-9A",
+      "group": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.4.1.1",
+      "page": 15,
+      "source_text": "The maximum floor space ratio is 0.70."
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.5.1.1",
+      "page": 17,
+      "source_text": "The maximum floor space ratio is 0.70 for the overall site."
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.6.1.1",
+      "page": 18,
+      "source_text": "The maximum floor space ratio is 0.70, except that the Director of Planning may increase the permitted floor space ratio to a maximum of 0.90 to facilitate the retention of an existing building if the Director of Planning considers the intent of this schedule, all applicable Council policies and guidelines, and the submission of any advisory group, property owner or tenant."
+    },
+    {
+      "district": "RM-9A",
+      "group": "multiple_conversion_dwelling",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.9,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": true,
+      "requires": {
+        "retention": true
+      },
+      "clause": "3.6.1.1",
+      "page": 18,
+      "source_text": "The maximum floor space ratio is 0.70, except that the Director of Planning may increase the permitted floor space ratio to a maximum of 0.90 to facilitate the retention of an existing building if the Director of Planning considers the intent of this schedule, all applicable Council policies and guidelines, and the submission of any advisory group, property owner or tenant."
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.7.1.1",
+      "page": 20,
+      "source_text": "The maximum floor space ratio is 0.70, except that the maximum floor space ratio is: 1.20 on sites with a site frontage less than 15.2 m where the Director of Planning considers the development site to consist of locked in lots; 1.50 on sites with a minimum site frontage of 15.2 m; 1.75 on sites with a minimum site frontage of 15.2 m and located on a corner site; and 2.00 on sites with a minimum site frontage of 27.4 m."
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.2,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_lt": 15.2,
+        "locked_in_lots": true
+      },
+      "clause": "3.7.1.1(a)",
+      "page": 20,
+      "source_text": "1.20 on sites with a site frontage less than 15.2 m where the Director of Planning considers the development site to consist of locked in lots;"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.5,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 15.2
+      },
+      "clause": "3.7.1.1(b)",
+      "page": 20,
+      "source_text": "1.50 on sites with a minimum site frontage of 15.2 m;"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 1.75,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 15.2,
+        "corner_site": true
+      },
+      "clause": "3.7.1.1(c)",
+      "page": 20,
+      "source_text": "1.75 on sites with a minimum site frontage of 15.2 m and located on a corner site; and"
+    },
+    {
+      "district": "RM-9A",
+      "group": "seniors_supportive_or_independent_living_housing",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 2.0,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {
+        "site_frontage_gte": 27.4
+      },
+      "clause": "3.7.1.1(d)",
+      "page": 20,
+      "source_text": "2.00 on sites with a minimum site frontage of 27.4 m."
+    },
+    {
+      "district": "RM-9A",
+      "group": "other_uses",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.7,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": false,
+      "requires": {},
+      "clause": "3.8.1.1",
+      "page": 22,
+      "source_text": "The maximum floor space ratio is 0.70."
+    },
+    {
+      "district": "RM-9A",
+      "group": "infill_single_detached_house",
+      "use": "*",
+      "metric": "fsr",
+      "bound": "max",
+      "value": 0.9,
+      "unit": "ratio",
+      "min_units": null,
+      "max_units": null,
+      "condition": null,
+      "tenure": null,
+      "discretionary": true,
+      "requires": {
+        "retention": true
+      },
+      "clause": "5.1",
+      "page": 24,
+      "source_text": "Despite section 3.5.1.1 of this schedule, the Director of Planning may relax the permitted floor space ratio to a maximum of 0.90 for infill single detached house to facilitate the retention of a building existing on the site prior to January 1, 1940 if the Director of Planning considers the intent of this schedule, all applicable Council policies and guidelines, and the submission of any advisory group, property owner or tenant."
+    }
+  ],
+  "clauses": [
+    {
+      "id": "1.1",
+      "text": "The intent of this schedule is to permit 4-storey apartments to provide a transition in residential neighbourhoods between higher building forms and ground-oriented building forms. The emphasis is on creating of a variety of dwelling unit sizes, including those appropriate for families with children. Townhouses are only permitted in combination with an apartment building and on exceptionally deep sites. [...] Without limitation, applicable Council policies and guidelines for consideration include the RM-9, RM-9A and RM-9B Guidelines.",
+      "page": 1,
+      "section_title": "1.1 Intent"
+    },
+    {
+      "id": "1.2",
+      "text": "The table below provides an overview of the outright and conditional approval uses in the RM-9A district, categorized by the minimum site area required, where applicable. Applicable density, form and placement regulations in section 3 of this schedule are cross-referenced in the third column.",
+      "page": 1,
+      "section_title": "1.2 Overview"
+    },
+    {
+      "id": "2.1",
+      "text": "All outright and conditional approval uses are subject to all other provisions of this by-law, including Section 2, Section 10 and Section 11, and compliance with the regulations of this schedule including section 2.2. [...] The uses identified in the table below as outright approval uses are permitted in these districts and will be issued a permit. [...] The uses identified in the table below as conditional approval uses may be approved in these districts by the Director of Planning, with or without conditions, if the Director of Planning considers: [...] Uses are listed under their general land use category. Applicable use-specific regulations in section 2.2 of this schedule are cross-referenced in the third column. Cross-references to applicable use-specific regulations are provided for information purposes only and do not form part of this by-law.",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(a)",
+      "text": "the intent of this schedule and all applicable Council policies and guidelines; and",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.1(b)",
+      "text": "the submission of any advisory group, property owner or tenant.",
+      "page": 2,
+      "section_title": "2.1 Outright and Conditional Approval Uses"
+    },
+    {
+      "id": "2.2",
+      "text": "",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.1",
+      "text": "The Director of Planning may permit more than 1 apartment building on a site if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.2",
+      "text": "Apartment in combination with townhouse may be permitted on sites with a depth of 45.7 m or more, if the townhouse is located at the rear of the site and if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.3",
+      "text": "Duplex with secondary suite, in combination with another principal building, must have no more than 1 secondary suite for each dwelling unit.",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.4",
+      "text": "Laneway house is subject to the R1-1 District Schedule and must be in combination with a single detached house, a single detached house with secondary suite, or a child day care facility, which is the only principal building on the site.",
+      "page": 4,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.5",
+      "text": "The only non-dwelling use permitted in a mixed-use residential building is neighbourhood grocery store.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6",
+      "text": "Multiple conversion dwelling containing 2 dwelling units is permitted as an outright approval use if:",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6(a)",
+      "text": "there are no additions to the building;",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6(b)",
+      "text": "no housekeeping or sleeping units are created;",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6(c)",
+      "text": "the development complies with sections 3.6.2.6, 3.6.2.7 and 4.3 of this schedule; and",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.6(d)",
+      "text": "no development permit is issued until the requisite permits required by other by-laws that relate to design, construction and safety of buildings are issuable.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7",
+      "text": "Multiple conversion dwelling that is not permitted as an outright approval use, resulting from the conversion of a building existing as of May 27, 2014, may be permitted as a conditional approval use if:",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7(a)",
+      "text": "the Director of Planning considers the quality and liveability of the resulting units, the suitability of the building for conversion in terms of age and size, and the impact of the conversion on adjacent properties;",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7(b)",
+      "text": "there are no additions to buildings constructed on or after January 1, 1940, except additions up to 5 m² used as exits;",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7(c)",
+      "text": "no housekeeping or sleeping units are created; and",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.7(d)",
+      "text": "there are no more than 3 dwelling units.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.8",
+      "text": "Principal dwelling unit with lock-off unit may be permitted only in a multiple dwelling and there may be no more than 1 lock-off unit for every 3 principal dwelling units, except that the Director of Planning may permit a higher ratio after considering the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.9",
+      "text": "Where a single detached house or single detached house with secondary suite is the only principal building on the site:",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.9(a)",
+      "text": "it must comply with the R1-1 District Schedule; and",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.9(b)",
+      "text": "the lot must have been on record in the Land Title Office prior to January 16, 2018.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.10",
+      "text": "Single detached house with secondary suite, in combination with another principal building, must have no more than 1 secondary suite for each dwelling unit.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.11",
+      "text": "Community care or assisted living facility - class A must comply with the regulations that apply to this use in the R1-1 district.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.12",
+      "text": "Farmers’ market may be permitted if the Director of Planning considers the appropriateness of the use with respect to compatibility with nearby sites, parking, traffic, noise, hours of operation, size of facility and pedestrian amenity.",
+      "page": 5,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13",
+      "text": "Accessory buildings customarily ancillary to any use listed in section 2.1 of this schedule, other than those ancillary to multiple dwelling, are permitted as an outright approval use if:",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(a)",
+      "text": "no accessory building exceeds 3.7 m in height, measured to: [...] provided that no portion of an accessory building exceeds 4.6 m in building height;",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(a)(i)",
+      "text": "the highest point of a flat roof,",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(a)(ii)",
+      "text": "the deck line of a mansard roof, or",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(a)(iii)",
+      "text": "the mean height between the eaves and the ridge of a gable, hip or gambrel roof,",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(b)",
+      "text": "all accessory buildings are located:",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(b)(i)",
+      "text": "within 7.9 m of the ultimate rear property line,",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(b)(ii)",
+      "text": "at least 3.6 m from the ultimate centre line of any rear or flanking lane, and",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(b)(iii)",
+      "text": "at least 1.5 m from a flanking street;",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(c)",
+      "text": "the total floor area of all accessory buildings, measured to the extreme outer limits of the building, does not exceed 48 m2;",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(d)",
+      "text": "the combined width for all accessory buildings does not exceed 80% of the width of the site at the rear property line;",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(e)",
+      "text": "the separation from any residential building is at least 3.7 m; and",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.13(f)",
+      "text": "roof decks and decks are not located on an accessory building.",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14",
+      "text": "Accessory buildings customarily ancillary to multiple dwelling may be permitted as a conditional approval use if:",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(a)",
+      "text": "no accessory building exceeds 3.7 m in height, measured to: [...] except that no portion of an accessory building exceeds 4.6 m in building height;",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(a)(i)",
+      "text": "the highest point of a flat roof,",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(a)(ii)",
+      "text": "the deck line of a mansard roof, or",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(a)(iii)",
+      "text": "the mean height between the eaves and the ridge of a gable, hip or gambrel roof,",
+      "page": 6,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(b)",
+      "text": "all accessory buildings are located:",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(b)(i)",
+      "text": "within 7.9 m of the ultimate rear property line,",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(b)(ii)",
+      "text": "at least 3.6 m from the ultimate centre line of any rear or flanking lane, and",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(b)(iii)",
+      "text": "at least 1.5 m from a flanking street;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(c)",
+      "text": "the total floor area of all accessory buildings, measured to the extreme outer limits of the building, does not exceed 48 m2, except that the Director of Planning may increase the total floor area of all accessory buildings to a maximum of 24 m2 for each dwelling unit, not including lock-off units, if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(d)",
+      "text": "the building width for all accessory buildings does not exceed 30% of the width of the site at the rear property line, except that the Director of Planning may increase the maximum building width up to 80%, if the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines;",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(e)",
+      "text": "the separation from any residential building is at least 3.7 m; and",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.14(f)",
+      "text": "roof decks and decks are not located on an accessory building.",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.15",
+      "text": "Accessory parking spaces customarily ancillary to any outright approval use listed in section 2.1 above must comply with the provisions of section 2.2.13(b) above.",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.16",
+      "text": "Child day care facility conversion dwelling is subject to the regulations, variations and relaxations that apply to: [...] This section contains density, form and placement regulations organized by use.",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.16(a)",
+      "text": "single detached house, when the child day care facility conversion dwelling was converted from a single detached house; and",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "2.2.16(b)",
+      "text": "single detached house with secondary suite, when the child day care facility conversion dwelling was converted from a single detached house with secondary suite.",
+      "page": 7,
+      "section_title": "2.2 Use-Specific Regulations"
+    },
+    {
+      "id": "3.1",
+      "text": "Apartment and apartment in combination with townhouse are subject to the following regulations.",
+      "page": 8,
+      "section_title": "3.1 Apartment and Apartment in Combination with Townhouse"
+    },
+    {
+      "id": "3.1.1",
+      "text": "",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1",
+      "text": "The maximum floor space ratio is 0.70, except that the maximum floor space ratio is:",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1(a)",
+      "text": "1.20 on sites with a site frontage less than 15.2 m and where the development site consists of locked in lots;",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1(b)",
+      "text": "1.50 on sites with a minimum site frontage of 15.2 m;",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1(c)",
+      "text": "1.75 on sites with a minimum site frontage of 15.2 m and located on a corner site; and",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.1(d)",
+      "text": "2.00 on sites with a minimum site frontage of 27.4 m.",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2",
+      "text": "The total number of dwelling units, excluding lock-off units, must not exceed:",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2(a)",
+      "text": "100 units per hectare of site area where the floor space ratio does not exceed 0.90;",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2(b)",
+      "text": "132 units per hectare of site area where the floor space ratio exceeds 0.90 and does not exceed 1.20; or",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.2(c)",
+      "text": "140 units per hectare of site area where the floor space ratio exceeds 1.20.",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.3",
+      "text": "Despite section 3.1.1.2(c) above, the Director of Planning may permit an increase to the dwelling unit density provided that the total number of dwelling units on a site, excluding lock-off units, does not exceed:",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.3(a)",
+      "text": "180 units per hectare of site area where the floor space ratio exceeds 1.20 and does not exceed 1.75; or",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.1.3(b)",
+      "text": "240 units per hectare of site area where the floor space ratio exceeds 1.75.",
+      "page": 8,
+      "section_title": "3.1.1 Density and Floor Area"
+    },
+    {
+      "id": "3.1.2",
+      "text": "",
+      "page": 8,
+      "section_title": "3.1.2 Building Form and Placement"
+    },
+    {
+      "id": "3.1.2.1",
+      "text": "Minimum site area: 445 m2",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.2",
+      "text": "Minimum site frontage: 15.2 m",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.3",
+      "text": "Maximum site frontage: 50.0 m",
+      "page": 8,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(a)",
+      "text": "Maximum building height for | apartment: 13.7 m and 4 storeys",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.4(b)",
+      "text": "Maximum building height for | townhouse: 10.7 m and 3 storeys",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.5",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.6",
+      "text": "Minimum side yard width: 2.1 m",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.7(a)",
+      "text": "Minimum rear yard depth for | apartment: 3.7 m",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.7(b)",
+      "text": "Minimum rear yard depth for | apartment in combination with townhouse: 1.2 m",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.8",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.9",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.10",
+      "text": "Minimum separation between buildings located on a site frontage and rear buildings: 7.3 m",
+      "page": 9,
+      "section_title": null
+    },
+    {
+      "id": "3.1.2.11",
+      "text": "If the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines, the Director of Planning may vary:",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(a)",
+      "text": "the minimum site area;",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(b)",
+      "text": "the minimum site frontage for a locked in lot;",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(c)",
+      "text": "the maximum site frontage;",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(d)",
+      "text": "the maximum building height for a rear building to a height not exceeding 12.2 m and 4 storeys;",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(e)",
+      "text": "the minimum front yard depth;",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(f)",
+      "text": "the minimum side yard width;",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(g)",
+      "text": "the minimum rear yard depth to a minimum of 1.2 m for apartment;",
+      "page": 9,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(h)",
+      "text": "the maximum site coverage;",
+      "page": 10,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(i)",
+      "text": "the maximum area of impermeable materials for developments providing underground parking; and",
+      "page": 10,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.1.2.11(j)",
+      "text": "the minimum separation between a building located on a site frontage and a rear building.",
+      "page": 10,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.2",
+      "text": "Triplex is subject to the following regulations.",
+      "page": 11,
+      "section_title": "3.2 Triplex"
+    },
+    {
+      "id": "3.2.1",
+      "text": "",
+      "page": 11,
+      "section_title": "3.2.1 Density and Floor Area"
+    },
+    {
+      "id": "3.2.1.1",
+      "text": "The maximum floor space ratio is 0.70, except that on sites with a site frontage less than 12.8 m, the maximum floor space ratio is 0.90.",
+      "page": 11,
+      "section_title": "3.2.1 Density and Floor Area"
+    },
+    {
+      "id": "3.2.1.2",
+      "text": "The total number of dwelling units on a site, excluding lock-off units, must not exceed 100 units per hectare of site area.",
+      "page": 11,
+      "section_title": "3.2.1 Density and Floor Area"
+    },
+    {
+      "id": "3.2.2",
+      "text": "",
+      "page": 11,
+      "section_title": "3.2.2 Building Form and Placement"
+    },
+    {
+      "id": "3.2.2.1",
+      "text": "Minimum site area: 303 m2",
+      "page": 11,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.2",
+      "text": "Maximum building height: 10.7 m",
+      "page": 11,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.3",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 11,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.4",
+      "text": "Minimum side yard width: 1.2 m",
+      "page": 11,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.5",
+      "text": "Minimum rear yard depth: 7.6 m",
+      "page": 11,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.6",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 11,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.7",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 11,
+      "section_title": null
+    },
+    {
+      "id": "3.2.2.8",
+      "text": "The Director of Planning may reduce the minimum site area if the lot was on record in the Land Title Office prior to May 27, 2014, and if the Director of Planning considers the quality and liveability of the resulting units, the impact on neighbouring properties, and the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 12,
+      "section_title": "Site Area"
+    },
+    {
+      "id": "3.2.2.9",
+      "text": "If the Director of Planning considers the intent of this schedule and all applicable Council policies and guidelines, the Director of Planning may vary:",
+      "page": 12,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.2.2.9(a)",
+      "text": "the minimum front yard depth;",
+      "page": 12,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.2.2.9(b)",
+      "text": "the minimum rear yard depth to a minimum of 1.2 m; and",
+      "page": 12,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.2.2.9(c)",
+      "text": "the maximum site coverage.",
+      "page": 12,
+      "section_title": "Discretion to Vary Other Regulations"
+    },
+    {
+      "id": "3.3",
+      "text": "Duplex or duplex with secondary suite, in combination with another principal building, are subject to the following regulations.",
+      "page": 13,
+      "section_title": "3.3 Duplex in Combination with Another Principal Building and Duplex with Secondary Suite in Combination with Another Principal Building"
+    },
+    {
+      "id": "3.3.1",
+      "text": "",
+      "page": 13,
+      "section_title": "3.3.1 Density and Floor Area"
+    },
+    {
+      "id": "3.3.1.1",
+      "text": "The maximum floor space ratio is 0.70.",
+      "page": 13,
+      "section_title": "3.3.1 Density and Floor Area"
+    },
+    {
+      "id": "3.3.2",
+      "text": "",
+      "page": 13,
+      "section_title": "3.3.2 Building Form and Placement"
+    },
+    {
+      "id": "3.3.2.1",
+      "text": "Minimum site area: 334 m2",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.3.2.2",
+      "text": "Maximum building height: 10.7 m",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.3.2.3",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.3.2.4",
+      "text": "Minimum side yard width: 2.1 m",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.3.2.5",
+      "text": "Minimum rear yard depth: 1.2 m",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.3.2.6",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.3.2.7",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 13,
+      "section_title": null
+    },
+    {
+      "id": "3.4",
+      "text": "Single detached house or single detached house with secondary suite, in combination with another principal building, are subject to the following regulations.",
+      "page": 15,
+      "section_title": "3.4 Single Detached House in Combination with Another Principal Building and Single Detached House with Secondary Suite in Combination with Another Principal Building"
+    },
+    {
+      "id": "3.4.1",
+      "text": "",
+      "page": 15,
+      "section_title": "3.4.1 Density and Floor Area"
+    },
+    {
+      "id": "3.4.1.1",
+      "text": "The maximum floor space ratio is 0.70.",
+      "page": 15,
+      "section_title": "3.4.1 Density and Floor Area"
+    },
+    {
+      "id": "3.4.2",
+      "text": "",
+      "page": 15,
+      "section_title": "3.4.2 Building Form and Placement"
+    },
+    {
+      "id": "3.4.2.1",
+      "text": "Minimum site area: 334 m2",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.4.2.2",
+      "text": "Maximum building height: 10.7 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.4.2.3",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.4.2.4",
+      "text": "Minimum side yard width: 2.1 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.4.2.5",
+      "text": "Minimum rear yard depth: 1.2 m",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.4.2.6",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.4.2.7",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 15,
+      "section_title": null
+    },
+    {
+      "id": "3.5",
+      "text": "Infill single detached house is subject to the following regulations.",
+      "page": 17,
+      "section_title": "3.5 Infill Single Detached House"
+    },
+    {
+      "id": "3.5.1",
+      "text": "",
+      "page": 17,
+      "section_title": "3.5.1 Density and Floor Area"
+    },
+    {
+      "id": "3.5.1.1",
+      "text": "The maximum floor space ratio is 0.70 for the overall site.",
+      "page": 17,
+      "section_title": "3.5.1 Density and Floor Area"
+    },
+    {
+      "id": "3.5.1.2",
+      "text": "On a site where a building existing on the site prior to January 1, 1940 is retained, the Director of Planning may relax the permitted floor space ratio in accordance with section 5.1 of this schedule.",
+      "page": 17,
+      "section_title": "3.5.1 Density and Floor Area"
+    },
+    {
+      "id": "3.5.2",
+      "text": "",
+      "page": 17,
+      "section_title": "3.5.2 Building Form and Placement"
+    },
+    {
+      "id": "3.5.2.1",
+      "text": "Minimum site area: 303 m2",
+      "page": 17,
+      "section_title": null
+    },
+    {
+      "id": "3.5.2.2",
+      "text": "Maximum building height: 10.7 m",
+      "page": 17,
+      "section_title": null
+    },
+    {
+      "id": "3.5.2.3",
+      "text": "Minimum side yard width: 1.2 m",
+      "page": 17,
+      "section_title": null
+    },
+    {
+      "id": "3.5.2.4",
+      "text": "Minimum rear yard depth: 1.2 m",
+      "page": 17,
+      "section_title": null
+    },
+    {
+      "id": "3.5.2.5",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 17,
+      "section_title": null
+    },
+    {
+      "id": "3.5.2.6",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 17,
+      "section_title": null
+    },
+    {
+      "id": "3.5.2.7",
+      "text": "The Director of Planning may reduce the minimum site area if the lot was on record in the Land Title Office prior to May 27, 2014 and if the Director of Planning considers the quality and liveability of the resulting units, the impact on neighbouring properties, and the intent of this schedule and all applicable Council policies and guidelines.",
+      "page": 17,
+      "section_title": "Site Area"
+    },
+    {
+      "id": "3.6",
+      "text": "Multiple conversion dwelling is subject to the following regulations.",
+      "page": 18,
+      "section_title": "3.6 Multiple Conversion Dwelling"
+    },
+    {
+      "id": "3.6.1",
+      "text": "",
+      "page": 18,
+      "section_title": "3.6.1 Density and Floor Area"
+    },
+    {
+      "id": "3.6.1.1",
+      "text": "The maximum floor space ratio is 0.70, except that the Director of Planning may increase the permitted floor space ratio to a maximum of 0.90 to facilitate the retention of an existing building if the Director of Planning considers the intent of this schedule, all applicable Council policies and guidelines, and the submission of any advisory group, property owner or tenant.",
+      "page": 18,
+      "section_title": "3.6.1 Density and Floor Area"
+    },
+    {
+      "id": "3.6.2",
+      "text": "",
+      "page": 18,
+      "section_title": "3.6.2 Building Form and Placement"
+    },
+    {
+      "id": "3.6.2.1",
+      "text": "Minimum site area: 303 m2",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.2",
+      "text": "Maximum building height: 10.7 m",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.3",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.4(a)",
+      "text": "Minimum side yard width for multiple conversion dwelling containing | 2 dwelling units: 2.1 m",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.4(b)",
+      "text": "Minimum side yard width for multiple conversion dwelling containing | more than 2 dwelling units: 1.2 m",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.5",
+      "text": "Minimum rear yard depth: 7.6 m",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.6",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.7",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 18,
+      "section_title": null
+    },
+    {
+      "id": "3.6.2.8",
+      "text": "Despite the minimum site area in section 3.6.2.1 above, there is no minimum site area requirement for multiple conversion dwelling having 2 dwelling units that is the only building on the site.",
+      "page": 18,
+      "section_title": "Site Area"
+    },
+    {
+      "id": "3.7",
+      "text": "Seniors supportive or independent living housing is subject to the following regulations.",
+      "page": 20,
+      "section_title": "3.7 Seniors Supportive or Independent Living Housing"
+    },
+    {
+      "id": "3.7.1",
+      "text": "",
+      "page": 20,
+      "section_title": "3.7.1 Density and Floor Area"
+    },
+    {
+      "id": "3.7.1.1",
+      "text": "The maximum floor space ratio is 0.70, except that the maximum floor space ratio is:",
+      "page": 20,
+      "section_title": "3.7.1 Density and Floor Area"
+    },
+    {
+      "id": "3.7.1.1(a)",
+      "text": "1.20 on sites with a site frontage less than 15.2 m where the Director of Planning considers the development site to consist of locked in lots;",
+      "page": 20,
+      "section_title": "3.7.1 Density and Floor Area"
+    },
+    {
+      "id": "3.7.1.1(b)",
+      "text": "1.50 on sites with a minimum site frontage of 15.2 m;",
+      "page": 20,
+      "section_title": "3.7.1 Density and Floor Area"
+    },
+    {
+      "id": "3.7.1.1(c)",
+      "text": "1.75 on sites with a minimum site frontage of 15.2 m and located on a corner site; and",
+      "page": 20,
+      "section_title": "3.7.1 Density and Floor Area"
+    },
+    {
+      "id": "3.7.1.1(d)",
+      "text": "2.00 on sites with a minimum site frontage of 27.4 m.",
+      "page": 20,
+      "section_title": "3.7.1 Density and Floor Area"
+    },
+    {
+      "id": "3.7.2",
+      "text": "",
+      "page": 20,
+      "section_title": "3.7.2 Building Form and Placement"
+    },
+    {
+      "id": "3.7.2.1",
+      "text": "Minimum site area: 445 m2",
+      "page": 20,
+      "section_title": null
+    },
+    {
+      "id": "3.7.2.2",
+      "text": "Maximum building height: 10.7 m",
+      "page": 20,
+      "section_title": null
+    },
+    {
+      "id": "3.7.2.3",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 20,
+      "section_title": null
+    },
+    {
+      "id": "3.7.2.4",
+      "text": "Minimum side yard width: 2.1 m",
+      "page": 20,
+      "section_title": null
+    },
+    {
+      "id": "3.7.2.5",
+      "text": "Minimum rear yard depth: 7.6 m",
+      "page": 20,
+      "section_title": null
+    },
+    {
+      "id": "3.7.2.6",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 20,
+      "section_title": null
+    },
+    {
+      "id": "3.7.2.7",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 20,
+      "section_title": null
+    },
+    {
+      "id": "3.8",
+      "text": "Uses not regulated by sections 3.1 to 3.7 of this schedule are subject to the following regulations, except:",
+      "page": 22,
+      "section_title": "3.8 Other Uses"
+    },
+    {
+      "id": "3.8(a)",
+      "text": "single detached house or single detached house with secondary suite, as the only principal building on the site, which are regulated by the R1-1 District Schedule; and",
+      "page": 22,
+      "section_title": "3.8 Other Uses"
+    },
+    {
+      "id": "3.8(b)",
+      "text": "laneway house, which is only permitted in combination with those uses described in section 3.8(a) above or child day care facility.",
+      "page": 22,
+      "section_title": "3.8 Other Uses"
+    },
+    {
+      "id": "3.8.1",
+      "text": "",
+      "page": 22,
+      "section_title": "3.8.1 Density and Floor Area"
+    },
+    {
+      "id": "3.8.1.1",
+      "text": "The maximum floor space ratio is 0.70.",
+      "page": 22,
+      "section_title": "3.8.1 Density and Floor Area"
+    },
+    {
+      "id": "3.8.2",
+      "text": "All uses in these districts, except single detached house or single detached house with secondary suite, as the only principal building on the site, and laneway house, are subject to the following regulations.",
+      "page": 22,
+      "section_title": "3.8.2 Building Form and Placement"
+    },
+    {
+      "id": "3.8.2.1",
+      "text": "Maximum building height: 10.7 m",
+      "page": 22,
+      "section_title": null
+    },
+    {
+      "id": "3.8.2.2",
+      "text": "Minimum front yard depth: 3.7 m",
+      "page": 22,
+      "section_title": null
+    },
+    {
+      "id": "3.8.2.3",
+      "text": "Minimum side yard width: 2.1 m",
+      "page": 22,
+      "section_title": null
+    },
+    {
+      "id": "3.8.2.4",
+      "text": "Minimum rear yard depth: 7.6 m",
+      "page": 22,
+      "section_title": null
+    },
+    {
+      "id": "3.8.2.5",
+      "text": "Maximum site coverage for all buildings: 55% of the site area",
+      "page": 22,
+      "section_title": null
+    },
+    {
+      "id": "3.8.2.6",
+      "text": "Maximum area of impermeable materials: 75% of the site area",
+      "page": 22,
+      "section_title": null
+    },
+    {
+      "id": "4.1",
+      "text": "",
+      "page": 24,
+      "section_title": "4.1 Dwelling Unit Density: Calculation"
+    },
+    {
+      "id": "4.1.1",
+      "text": "Where the calculation of dwelling units per hectare results in a fractional number, the number must be rounded down.",
+      "page": 24,
+      "section_title": "4.1 Dwelling Unit Density: Calculation"
+    },
+    {
+      "id": "4.2",
+      "text": "",
+      "page": 24,
+      "section_title": "4.2 Yards: Projections and Measurement"
+    },
+    {
+      "id": "4.2.1",
+      "text": "For multiple dwelling, portions of basement floor area directly below entries, porches and verandahs may project up to 1.8 m into the required front yard.",
+      "page": 24,
+      "section_title": "4.2 Yards: Projections and Measurement"
+    },
+    {
+      "id": "4.3",
+      "text": "",
+      "page": 24,
+      "section_title": "4.3 Site Coverage and Impermeability: Measurement"
+    },
+    {
+      "id": "4.3.1",
+      "text": "The maximum area of impermeable materials includes site coverage for all buildings.",
+      "page": 24,
+      "section_title": "4.3 Site Coverage and Impermeability: Measurement"
+    },
+    {
+      "id": "5.1",
+      "text": "Despite section 3.5.1.1 of this schedule, the Director of Planning may relax the permitted floor space ratio to a maximum of 0.90 for infill single detached house to facilitate the retention of a building existing on the site prior to January 1, 1940 if the Director of Planning considers the intent of this schedule, all applicable Council policies and guidelines, and the submission of any advisory group, property owner or tenant.",
+      "page": 24,
+      "section_title": "5 RELAXATIONS"
+    }
+  ],
+  "figures": [
+    {
+      "caption": "Building placement for accessory buildings",
+      "page": 6
+    },
+    {
+      "caption": "Building placement for apartment in combination with townhouse",
+      "page": 9
+    },
+    {
+      "caption": "Apartment in combination with townhouse",
+      "page": 10
+    },
+    {
+      "caption": "Building placement for triplex",
+      "page": 12
+    },
+    {
+      "caption": "Building placement for 2 principal buildings on a site",
+      "page": 14
+    },
+    {
+      "caption": "Building placement for 2 principal buildings on a site",
+      "page": 16
+    },
+    {
+      "caption": "Building placement for infill",
+      "page": 17
+    },
+    {
+      "caption": "Building placement for multiple conversion dwelling",
+      "page": 19
+    },
+    {
+      "caption": "Building placement for seniors supportive or independent living housing",
+      "page": 21
+    },
+    {
+      "caption": "Building placement for other uses",
+      "page": 23
+    }
+  ],
+  "use_groups": {
+    "3.1": "apartment_and_apartment_in_combination_with_townhouse",
+    "3.2": "triplex",
+    "3.3": "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building",
+    "3.4": "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building",
+    "3.5": "infill_single_detached_house",
+    "3.6": "multiple_conversion_dwelling",
+    "3.7": "seniors_supportive_or_independent_living_housing",
+    "3.8": "other_uses"
+  },
+  "group_members": {
+    "apartment_and_apartment_in_combination_with_townhouse": [
+      "apartment",
+      "townhouse"
+    ],
+    "triplex": [
+      "triplex"
+    ],
+    "duplex_in_combination_with_another_principal_building_and_duplex_with_secondary_suite_in_combination_with_another_principal_building": [
+      "duplex",
+      "duplex_with_secondary_suite"
+    ],
+    "single_detached_house_in_combination_with_another_principal_building_and_single_detached_house_with_secondary_suite_in_combination_with_another_principal_building": [
+      "single_detached_house",
+      "single_detached_house_with_secondary_suite"
+    ],
+    "infill_single_detached_house": [
+      "infill_single_detached_house"
+    ],
+    "multiple_conversion_dwelling": [
+      "multiple_conversion_dwelling"
+    ],
+    "seniors_supportive_or_independent_living_housing": [
+      "seniors_supportive_or_independent_living_housing"
+    ],
+    "other_uses": []
+  },
+  "overview": [
+    {
+      "name": "Apartment",
+      "uses": [
+        "apartment"
+      ],
+      "min_site_area_m2": 445.0,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "Apartment, in combination with Townhouse",
+      "uses": [
+        "apartment"
+      ],
+      "min_site_area_m2": 445.0,
+      "section": "3.1",
+      "regulated_by": null
+    },
+    {
+      "name": "Seniors Supportive or Independent Living Housing",
+      "uses": [
+        "seniors_supportive_or_independent_living_housing"
+      ],
+      "min_site_area_m2": 445.0,
+      "section": "3.7",
+      "regulated_by": null
+    },
+    {
+      "name": "Duplex or Duplex with Secondary Suite, in combination with another principal building",
+      "uses": [
+        "duplex",
+        "duplex_with_secondary_suite"
+      ],
+      "min_site_area_m2": 334.0,
+      "section": "3.3",
+      "regulated_by": null
+    },
+    {
+      "name": "Single Detached House or Single Detached House with Secondary Suite, in combination with another principal building",
+      "uses": [
+        "single_detached_house",
+        "single_detached_house_with_secondary_suite"
+      ],
+      "min_site_area_m2": 334.0,
+      "section": "3.4",
+      "regulated_by": null
+    },
+    {
+      "name": "Triplex",
+      "uses": [
+        "triplex"
+      ],
+      "min_site_area_m2": 303.0,
+      "section": "3.2",
+      "regulated_by": null
+    },
+    {
+      "name": "Infill Single Detached House",
+      "uses": [
+        "infill_single_detached_house"
+      ],
+      "min_site_area_m2": 303.0,
+      "section": "3.5",
+      "regulated_by": null
+    },
+    {
+      "name": "Multiple Conversion Dwelling",
+      "uses": [
+        "multiple_conversion_dwelling"
+      ],
+      "min_site_area_m2": 303.0,
+      "section": "3.6",
+      "regulated_by": null
+    },
+    {
+      "name": "Other uses in section 2.1 of this schedule",
+      "uses": [],
+      "min_site_area_m2": null,
+      "section": "3.8",
+      "regulated_by": null
+    },
+    {
+      "name": "Single Detached House or Single Detached House with Secondary Suite",
+      "uses": [
+        "single_detached_house",
+        "single_detached_house_with_secondary_suite"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    },
+    {
+      "name": "Laneway House",
+      "uses": [
+        "laneway_house"
+      ],
+      "min_site_area_m2": null,
+      "section": null,
+      "regulated_by": "R1-1"
+    }
+  ],
+  "rental_only": false,
+  "schedule_districts": [
+    "RM-9A"
+  ],
+  "parser_version": "0.1.0.dev0"
+}
