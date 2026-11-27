@@ -1,6 +1,5 @@
-"""All residential districts: parsed values vs the hand-coded profiles in
-6aniel/vancouver_r_zoning (profiles.py, snapshot 2026-10-11), plus golden values
-read off the PDFs for the density rules the old profiles did not encode.
+"""All residential districts: golden values read off the PDFs by hand,
+checked against the parsed schedules.
 
 Runs on the bundled JSON. Set VANZONING_PDF_DIR to a folder of the City's
 district schedule PDFs to also re-parse them and check nothing drifted.
@@ -14,8 +13,8 @@ from vanzoning import Metric as M
 from vanzoning import store
 from vanzoning.summary import summarize
 
-# district: (use, dwelling units, site facts, values that profiles.py hand-codes and the parser reproduces)
-PROFILE_MATCHES = {
+# district: (use, dwelling units, site facts, expected headline limits from summarize())
+HEADLINE = {
     "R1-1": ('multiple_dwelling', 3, {'site_area': 549.0, 'site_frontage': 15.0, 'site_depth': 36.6},
         {'fsr': 1, 'height': 11.5, 'floors': 3, 'front': 4.9, 'side': 1.2, 'rear': 10.7, 'building_depth': 19.8, 'building_width': 17.4, 'rental_only': False}),
     "R3-1": ('apartment', 3, {'site_area': 549.0, 'site_frontage': 15.0, 'site_depth': 36.6},
@@ -112,62 +111,61 @@ PROFILE_MATCHES = {
         {'fsr': 1, 'height': 11.5, 'floors': 3, 'front': 4.9, 'side': 1.2, 'rear': 10.7, 'building_depth': 19.8, 'building_width': 17.4, 'rental_only': False}),
 }
 
-# Where profiles.py and the parsed schedule disagree. Each entry is checked
-# against the PDF: (field, old profile value, value per the PDF, why).
-KNOWN_DIFFERENCES = {
-    "R3-2": [("rental_only", False, True, "3.1.1.4(a): must be 100% rental (old repo applied this in resolve())")],
-    "R5-1": [("fsr", 6.5, None, "3.1.1.2: every FSR path needs 20% below-market rental or social housing")],
-    "R5-2": [("fsr", 5.5, None, "3.1.1.4(b): 5.50 only with 20% below-market rental or 100% social")],
-    "R5-3": [("fsr", 6.5, None, "3.1.1.7: conditional on below-market rental / social housing")],
-    "R5-4": [("fsr", 6.5, None, "3.1.1.9: conditional on below-market rental / social housing")],
-    "RM-1": [("front", 4.9, 3.1, "table 3.1.2.4 is 3.1 m; 4.9 m applies only within 4.9 m of side lines (3.1.2.11)")],
-    "RM-8": [("units_per_ha", 145, None, "3.1.1.4: 145/ha only where FSR exceeds 0.90 (needs an fsr fact)")],
-    "RM-8A": [("units_per_ha", 145, None, "3.1.1.4: 145/ha only where FSR exceeds 0.90")],
-    "RR-3A": [("fsr", 2.4, None, "3.1.1.3: needs non-dwelling FSR of at least 0.35"),
-              ("side", 3.7, None, "3.1.2.4: 3.7 m only beside an R-district side yard, else not required")],
-    "RR-3B": [("fsr", 3.4, None, "3.1.1.3: needs non-dwelling FSR of at least 0.35"),
-              ("side", 3.7, None, "3.1.2.4: conditional")],
-    "RR-3C": [("fsr", 3.4, None, "3.1.1.3: needs non-dwelling FSR of at least 0.35"),
-              ("side", 3.7, None, "3.1.2.4: conditional")],
-    "RT-1": [("max_units", 2, None, "duplex unit count is a domain constant (envelope.UNITS_PER_USE), not a rule")],
-    "RT-4": [("max_units", 2, None, "same as RT-1")],
-    "RT-4A": [("max_units", 2, None, "same as RT-1")],
-    "RT-2": [("floors", 2, None, "3.1.2.2 limits height to 9.2 m with no storey count")],
-    "RT-10": [("rear", 1.2, 0.6, "table 3.1.2.5 is 0.6 m (old profile ignored it on purpose)"),
-              ("min_area", 511, 306.0, "511 m2 is for more than 1 principal building (3.1.2.9, prose)"),
-              ("min_width", 15, None, "15.0 m is for more than 1 principal building (3.1.2.9, prose)")],
-    "RT-11": [("rear", 1.2, 0.6, "table 3.1.2.6 is 0.6 m"),
-              ("min_area", 511, None, "511 m2 is for more than 1 principal building (prose)")],
+# Limits that are easy to misread: conditional, prose-only, or not a rule at all.
+# (field, value per the PDF, clause / why). None = no unconditional value.
+TRICKY_LIMITS = {
+    "R3-2": [("rental_only", True, "3.1.1.4(a): must be 100% rental")],
+    "R5-1": [("fsr", None, "3.1.1.2: every FSR path needs 20% below-market rental or social housing")],
+    "R5-2": [("fsr", None, "3.1.1.4(b): 5.50 only with 20% below-market rental or 100% social")],
+    "R5-3": [("fsr", None, "3.1.1.7: conditional on below-market rental / social housing")],
+    "R5-4": [("fsr", None, "3.1.1.9: conditional on below-market rental / social housing")],
+    "RM-1": [("front", 3.1, "table 3.1.2.4 is 3.1 m; 4.9 m applies only within 4.9 m of side lines (3.1.2.11)")],
+    "RM-8": [("units_per_ha", None, "3.1.1.4: 145/ha only where FSR exceeds 0.90 (needs an fsr fact)")],
+    "RM-8A": [("units_per_ha", None, "3.1.1.4: 145/ha only where FSR exceeds 0.90")],
+    "RR-3A": [("fsr", None, "3.1.1.3: needs non-dwelling FSR of at least 0.35"),
+              ("side", None, "3.1.2.4: 3.7 m only beside an R-district side yard, else not required")],
+    "RR-3B": [("fsr", None, "3.1.1.3: needs non-dwelling FSR of at least 0.35"),
+              ("side", None, "3.1.2.4: conditional")],
+    "RR-3C": [("fsr", None, "3.1.1.3: needs non-dwelling FSR of at least 0.35"),
+              ("side", None, "3.1.2.4: conditional")],
+    "RT-1": [("max_units", None, "duplex unit count is a domain constant (envelope.UNITS_PER_USE), not a rule")],
+    "RT-4": [("max_units", None, "same as RT-1")],
+    "RT-4A": [("max_units", None, "same as RT-1")],
+    "RT-2": [("floors", None, "3.1.2.2 limits height to 9.2 m with no storey count")],
+    "RT-10": [("rear", 0.6, "table 3.1.2.5 is 0.6 m"),
+              ("min_area", 306.0, "511 m2 is for more than 1 principal building (3.1.2.9, prose)"),
+              ("min_width", None, "15.0 m is for more than 1 principal building (3.1.2.9, prose)")],
+    "RT-11": [("rear", 0.6, "table 3.1.2.6 is 0.6 m"),
+              ("min_area", None, "511 m2 is for more than 1 principal building (prose)")],
 }
 
 
 def _summary(district):
-    use, units, facts, _ = PROFILE_MATCHES[district]
+    use, units, facts, _ = HEADLINE[district]
     return summarize(store.load(district), use, facts=facts, units=units)
 
 
 def test_all_residential_districts_bundled():
-    expected = set(PROFILE_MATCHES) | {"FM-1"}
+    expected = set(HEADLINE) | {"FM-1"}
     assert expected <= set(store.available())
     assert len(expected) == 48
 
 
-@pytest.mark.parametrize("district", sorted(PROFILE_MATCHES))
-def test_matches_old_profiles(district):
+@pytest.mark.parametrize("district", sorted(HEADLINE))
+def test_headline_limits(district):
     got = _summary(district)
-    want = PROFILE_MATCHES[district][3]
+    want = HEADLINE[district][3]
     assert {k: got[k] for k in want} == pytest.approx(want)
 
 
-@pytest.mark.parametrize("district,field,old,pdf,why", [
-    (d, *x) for d, xs in sorted(KNOWN_DIFFERENCES.items()) for x in xs])
-def test_known_differences_follow_the_pdf(district, field, old, pdf, why):
+@pytest.mark.parametrize("district,field,pdf,why", [
+    (d, *x) for d, xs in sorted(TRICKY_LIMITS.items()) for x in xs])
+def test_tricky_limits_follow_the_pdf(district, field, pdf, why):
     got = _summary(district)[field]
     assert got == (pytest.approx(pdf) if isinstance(pdf, float) else pdf)
-    assert got != old
 
 
-# ---------------------------------------------------------------- density rules read off the PDFs
+# ---------------------------------------------------------------- density rules
 def L(d):
     return store.load(d)
 

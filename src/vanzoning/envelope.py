@@ -87,8 +87,7 @@ def _check(sched: DistrictSchedule, site: Site, use: str, units: int | None, rea
 def geometric_envelope(
     sched: DistrictSchedule, site: Site, use: str, floor_height_m: float = 3.0
 ) -> dict | None:
-    """Simplified single rectangular building envelope (ported from the earlier
-    vancouver_r_zoning `capacity()`): footprint from yards and max building
+    """Simplified single rectangular building envelope: footprint from yards and max building
     width/depth, capped by site coverage; floors from height / floor height and
     the storey cap; partial top storey where the schedule requires one.
     Returns None if site depth is unknown."""

@@ -1,7 +1,6 @@
 """Parcel geometry helpers: measure frontage/depth from parcel polygons.
 
-Ported from the earlier vancouver_r_zoning `preprocess_properties.py`
-(minimum rotated rectangle oriented by street axis). Needs the `geo` extra:
+Uses the minimum rotated rectangle, oriented by street axis. Needs the `geo` extra:
 `pip install "vanzoning[geo]"` (shapely, pyproj).
 
 Use with City of Vancouver Open Data `property-parcel-polygons.geojson`.

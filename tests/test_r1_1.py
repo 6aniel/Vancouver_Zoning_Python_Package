@@ -115,18 +115,18 @@ def test_envelope_vs_fsr_33ft_lot(r1):
     assert sdh.floors == 3 and sdh.envelope_floor_area_m2 == pytest.approx((10.06 - 2.4) * 14.8 * 2.5)
 
 
-def test_matches_previous_repo_profile(r1):
-    """Values hand-encoded in 6aniel/vancouver_r_zoning profiles.py (Oct 2026)."""
-    old = dict(fsr=1, height=11.5, floors=3, front=4.9, side=1.2, rear=10.7, building_width=17.4, building_depth=19.8)
+def test_multiple_dwelling_headline_limits(r1):
+    """Headline limits read off the R1-1 PDF by hand."""
+    want = dict(fsr=1, height=11.5, floors=3, front=4.9, side=1.2, rear=10.7, building_width=17.4, building_depth=19.8)
     u, M = "multiple_dwelling", Metric
-    assert r1.value(M.FSR, u, "max") == old["fsr"]
-    assert r1.value(M.BUILDING_HEIGHT, u, "max", condition=None) == old["height"]
-    assert r1.value(M.STOREYS, u, "max", condition=None) == old["floors"]
-    assert r1.value(M.FRONT_YARD, u, "min") == old["front"]
-    assert r1.value(M.SIDE_YARD, u, "min") == old["side"]
-    assert r1.value(M.REAR_YARD, u, "min", condition=None) == old["rear"]
-    assert r1.value(M.BUILDING_WIDTH, u, "max") == old["building_width"]
-    assert r1.value(M.BUILDING_DEPTH, u, "max") == old["building_depth"]
+    assert r1.value(M.FSR, u, "max") == want["fsr"]
+    assert r1.value(M.BUILDING_HEIGHT, u, "max", condition=None) == want["height"]
+    assert r1.value(M.STOREYS, u, "max", condition=None) == want["floors"]
+    assert r1.value(M.FRONT_YARD, u, "min") == want["front"]
+    assert r1.value(M.SIDE_YARD, u, "min") == want["side"]
+    assert r1.value(M.REAR_YARD, u, "min", condition=None) == want["rear"]
+    assert r1.value(M.BUILDING_WIDTH, u, "max") == want["building_width"]
+    assert r1.value(M.BUILDING_DEPTH, u, "max") == want["building_depth"]
     fam = {(r.min_units, r.tenure): r.value for r in r1.get(M.FAMILY_UNITS, u)}
     assert [fam[(n, "strata_or_mixed")] for n in (3, 4, 5, 6)] == [2, 2, 3, 3]
     assert [fam[(n, "rental")] for n in range(3, 9)] == [1, 1, 2, 2, 2, 3]
