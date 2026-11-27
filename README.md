@@ -10,7 +10,7 @@ Discosure & References:
 - pdfplumber is used as part of the pipeline in the text/by-law parsing
 - Zoning by-laws are from the City of Vancouver and are available here: https://vancouver.ca/home-property-development/zoning-and-land-use-policies-document-library.aspx#regulation
 
-## Install (dev)
+## Install
 
 ```bash
 pip install "vanzoning[opt] @ git+https://github.com/6aniel/Vancouver_Zoning_Python_Package.git"
@@ -62,22 +62,6 @@ vanzoning parse By-law_pdfs/ -o src/vanzoning/data/districts --csv all_districts
 vanzoning parse zoning-by-law-district-schedule-r1-1.pdf -o R1-1.json
 vanzoning show R3-2
 ```
-
-## How it works
-
-1. `extract.tagged_pdf`: reads the PDF's tag tree (headings, paragraphs, real
-   table cells). City PDFs are tagged, so diagram labels, headers and footers
-   drop out without layout heuristics.
-2. `parse.clauses`: builds the numbered clause tree (3.1.1.3(b)(ii)(A)).
-3. `parse.schedule`: turns tables and clause text into `Regulation` rows
-   (metric, min/max, value, unit, use, unit-count band, tenure, condition,
-   clause, page, source text) and use approvals.
-4. `envelope`: per-site building options (eligible, units, max floor area, why
-   not), the input to a MILP or ML model. See `examples/milp_max_units.py`.
-   Each option carries both the FSR cap and a simplified geometric envelope
-   (yards, building width/depth, coverage, storeys), and says which one binds.
-5. `features`: fixed-order numeric vectors; `torch.from_numpy(X)` works.
-6. `parcels` (extra `geo`): frontage/depth from Open Data parcel polygons.
 
 ## Layout
 
