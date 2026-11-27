@@ -1,9 +1,14 @@
 # vanzoning
 
 Parse, query and store City of Vancouver zoning bylaw rules (district schedules)
-as clean, typed data for urban analytics and housing-supply optimisation.
+as clean, typed data for analysis. 
 
 Status: prototype
+
+Discosure & References: 
+- Claude, namely Opus 5.5, was used to help code
+- pdfplumber is used as part of the pipeline in the text/by-law parsing
+- Zoning by-laws are from the City of Vancouver and are available here: https://vancouver.ca/home-property-development/zoning-and-land-use-policies-document-library.aspx#regulation
 
 ## Install (dev)
 
